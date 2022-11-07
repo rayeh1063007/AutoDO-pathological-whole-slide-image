@@ -1,0 +1,544 @@
+[2022-10-26 13:31:09,964] exp4_main.py->main line:120 [INFO]Namespace(aug_model='SEP', data='./local_data', dataset='med', epochs=50, gpu='1', hyper_alpha=0.01, hyper_beta=0, hyper_est=True, hyper_gamma=0, hyper_iters=5, hyper_opt='HES', hyper_steps=0, imbalance_ratio=1, log_interval=500, los_model='NONE', lr_cosine=True, lr_decay_epochs='30,55,80', lr_decay_rate=0.1, lr_warm=True, lr_warm_epochs=5, no_cuda=False, noise_ratio=0.0, overfit=False, oversplit=False, plot_debug=False, run_folder='exp5_allData', scale=1, subsample_ratio=1.0, workers=4)
+[2022-10-26 13:31:21,198] exp4_main.py->main line:184 [INFO]Valid/Train Split: 850/94
+[2022-10-26 13:31:21,203] exp4_main.py->main line:237 [INFO]Test/Valid/Train Split: 564/94/850 out of total 944 train images
+[2022-10-26 13:31:21,214] exp4_main.py->main line:270 [INFO]Run: ./local_data/med/exp5_allData/UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0
+[2022-10-26 13:31:21,215] exp4_main.py->main line:279 [INFO]0% (0/50)
+[2022-10-26 13:31:23,348] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 0, batch_idx: 0, global_img_step: 0
+[2022-10-26 13:32:58,321] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 0	 Inner Train loss: 0.8233, acc=0.6681, lr=0.000003	
+[2022-10-26 13:33:19,993] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 0	 Test loss: 0.7264, score: 0.7071
+[2022-10-26 13:33:19,994] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 0 with 0.7071 Dice score
+[2022-10-26 13:33:30,899] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:33:30,899] exp4_main.py->main line:279 [INFO]2% (1/50)
+[2022-10-26 13:33:32,010] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 1, batch_idx: 0, global_img_step: 1
+[2022-10-26 13:35:07,264] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 1	 Inner Train loss: 0.6764, acc=0.7401, lr=0.000004	
+[2022-10-26 13:35:28,699] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 1	 Test loss: 1.3148, score: 0.6067
+[2022-10-26 13:35:29,094] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:35:29,094] exp4_main.py->main line:279 [INFO]4% (2/50)
+[2022-10-26 13:35:30,308] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 2, batch_idx: 0, global_img_step: 2
+[2022-10-26 13:37:05,645] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 2	 Inner Train loss: 0.6451, acc=0.7559, lr=0.000006	
+[2022-10-26 13:37:27,075] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 2	 Test loss: 0.8692, score: 0.7018
+[2022-10-26 13:37:27,373] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:37:27,374] exp4_main.py->main line:279 [INFO]6% (3/50)
+[2022-10-26 13:37:28,434] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 3, batch_idx: 0, global_img_step: 3
+[2022-10-26 13:39:03,697] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 3	 Inner Train loss: 0.6233, acc=0.7642, lr=0.000008	
+[2022-10-26 13:39:25,352] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 3	 Test loss: 0.8355, score: 0.6975
+[2022-10-26 13:39:25,625] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:39:25,626] exp4_main.py->main line:279 [INFO]8% (4/50)
+[2022-10-26 13:39:26,762] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 4, batch_idx: 0, global_img_step: 4
+[2022-10-26 13:41:02,050] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 4	 Inner Train loss: 0.6084, acc=0.7738, lr=0.000010	
+[2022-10-26 13:41:23,508] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 4	 Test loss: 0.6747, score: 0.7493
+[2022-10-26 13:41:23,510] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 4 with 0.7493 Dice score
+[2022-10-26 13:41:34,511] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:41:34,511] exp4_main.py->main line:279 [INFO]10% (5/50)
+[2022-10-26 13:41:35,739] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 5, batch_idx: 0, global_img_step: 5
+[2022-10-26 13:43:11,061] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 5	 Inner Train loss: 0.5712, acc=0.7887, lr=0.000010	
+[2022-10-26 13:43:32,695] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 5	 Test loss: 0.7099, score: 0.7476
+[2022-10-26 13:43:32,970] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:43:32,972] exp4_main.py->main line:279 [INFO]12% (6/50)
+[2022-10-26 13:43:34,130] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 6, batch_idx: 0, global_img_step: 6
+[2022-10-26 13:45:09,500] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 6	 Inner Train loss: 0.5469, acc=0.7992, lr=0.000010	
+[2022-10-26 13:45:31,001] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 6	 Test loss: 0.7189, score: 0.7237
+[2022-10-26 13:45:31,268] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:45:31,269] exp4_main.py->main line:279 [INFO]14% (7/50)
+[2022-10-26 13:45:32,439] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 7, batch_idx: 0, global_img_step: 7
+[2022-10-26 13:47:07,915] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 7	 Inner Train loss: 0.5404, acc=0.7995, lr=0.000010	
+[2022-10-26 13:47:29,514] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 7	 Test loss: 0.7698, score: 0.7108
+[2022-10-26 13:47:31,023] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:47:31,025] exp4_main.py->main line:279 [INFO]16% (8/50)
+[2022-10-26 13:47:33,978] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 8, batch_idx: 0, global_img_step: 8
+[2022-10-26 13:49:09,386] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 8	 Inner Train loss: 0.5115, acc=0.8119, lr=0.000009	
+[2022-10-26 13:49:30,910] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 8	 Test loss: 0.6367, score: 0.7536
+[2022-10-26 13:49:30,913] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 8 with 0.7536 Dice score
+[2022-10-26 13:49:41,982] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:49:41,983] exp4_main.py->main line:279 [INFO]18% (9/50)
+[2022-10-26 13:49:43,065] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 9, batch_idx: 0, global_img_step: 9
+[2022-10-26 13:51:18,392] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 9	 Inner Train loss: 0.4679, acc=0.8298, lr=0.000009	
+[2022-10-26 13:51:39,916] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 9	 Test loss: 0.6510, score: 0.7589
+[2022-10-26 13:51:39,918] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 9 with 0.7589 Dice score
+[2022-10-26 13:51:50,952] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:51:50,952] exp4_main.py->main line:279 [INFO]20% (10/50)
+[2022-10-26 13:51:52,164] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 10, batch_idx: 0, global_img_step: 10
+[2022-10-26 13:53:27,573] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 10	 Inner Train loss: 0.4784, acc=0.8260, lr=0.000009	
+[2022-10-26 13:53:49,038] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 10	 Test loss: 0.6947, score: 0.7629
+[2022-10-26 13:53:49,041] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 10 with 0.7629 Dice score
+[2022-10-26 13:53:59,960] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:53:59,961] exp4_main.py->main line:279 [INFO]22% (11/50)
+[2022-10-26 13:54:01,230] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 11, batch_idx: 0, global_img_step: 11
+[2022-10-26 13:55:36,593] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 11	 Inner Train loss: 0.4574, acc=0.8353, lr=0.000009	
+[2022-10-26 13:55:58,145] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 11	 Test loss: 0.6609, score: 0.7619
+[2022-10-26 13:55:58,388] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:55:58,388] exp4_main.py->main line:279 [INFO]24% (12/50)
+[2022-10-26 13:55:59,779] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 12, batch_idx: 0, global_img_step: 12
+[2022-10-26 13:57:35,258] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 12	 Inner Train loss: 0.4325, acc=0.8430, lr=0.000009	
+[2022-10-26 13:57:56,767] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 12	 Test loss: 0.9237, score: 0.7397
+[2022-10-26 13:57:57,035] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 13:57:57,036] exp4_main.py->main line:279 [INFO]26% (13/50)
+[2022-10-26 13:57:58,259] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 13, batch_idx: 0, global_img_step: 13
+[2022-10-26 13:59:33,704] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 13	 Inner Train loss: 0.4214, acc=0.8482, lr=0.000008	
+[2022-10-26 13:59:55,227] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 13	 Test loss: 0.6731, score: 0.7657
+[2022-10-26 13:59:55,230] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 13 with 0.7657 Dice score
+[2022-10-26 14:00:06,188] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 14:00:06,189] exp4_main.py->main line:279 [INFO]28% (14/50)
+[2022-10-26 14:00:07,412] automodels.py->Med_innerTrain line:1028 [INFO]Train epoch: 14, batch_idx: 0, global_img_step: 14
+[2022-10-26 14:01:42,746] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 14	 Inner Train loss: 0.4213, acc=0.8491, lr=0.000008	
+[2022-10-26 14:02:04,465] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 14	 Test loss: 0.6399, score: 0.7803
+[2022-10-26 14:02:04,468] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 14 with 0.7803 Dice score
+[2022-10-26 14:02:15,426] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 14:02:15,427] exp4_main.py->main line:279 [INFO]30% (15/50)
+[2022-10-26 14:02:17,065] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.6391, -2.6391, -2.6391, -2.6391, -2.6391, -2.6391, -2.6391, -2.6391,
+        -2.6391, -2.6391, -2.6391, -2.6391, -2.6391, -2.6391, -2.6391])
+[2022-10-26 14:02:17,067] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.])
+[2022-10-26 14:02:17,428] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 15, batch_idx: 0, global_img_step: 15, aug_ops:[('idenity', [1.0])]
+[2022-10-26 14:02:17,429] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000008, hyper_lr=0.005000	gLtNorm 3.3049 (3.3049)	gLvNorm 0.0473 (0.0473)	mvpNorm 3.7933 (3.7933)
+
+[2022-10-26 14:06:35,808] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 15, batch_idx: 0, global_img_step: 16, aug_ops:[('saturation', tensor([0.4989]))]
+[2022-10-26 14:10:07,861] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 15	 Inner Train loss: 0.8174, acc=0.7052, lr=0.000008	
+[2022-10-26 14:10:29,429] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 15	 Test loss: 0.6775, score: 0.7013
+[2022-10-26 14:10:29,698] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 14:10:29,699] exp4_main.py->main line:279 [INFO]32% (16/50)
+[2022-10-26 14:10:30,973] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.7136, -2.5645, -2.5645, -2.7136, -2.5645, -2.6391, -2.7135, -2.6391,
+        -2.6391, -2.7136, -2.5645, -2.7136, -2.7136, -2.5645, -2.7136])
+[2022-10-26 14:10:30,980] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000, -0.0745,
+         0.0000,  0.0000])
+[2022-10-26 14:10:31,323] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 16, batch_idx: 0, global_img_step: 17, aug_ops:[('Hed', tensor([-0.3888,  0.2804,  0.7226])), ('ShearY', tensor([-0.3923]))]
+[2022-10-26 14:10:31,324] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000008, hyper_lr=0.013756	gLtNorm 0.5232 (0.5232)	gLvNorm 0.5798 (0.5798)	mvpNorm 1.0036 (1.0036)
+
+[2022-10-26 14:14:51,081] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 16, batch_idx: 0, global_img_step: 18, aug_ops:[('idenity', [1.0])]
+[2022-10-26 14:18:25,779] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 16	 Inner Train loss: 0.7344, acc=0.7276, lr=0.000008	
+[2022-10-26 14:18:47,225] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 16	 Test loss: 0.5425, score: 0.7736
+[2022-10-26 14:18:47,532] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 14:18:47,533] exp4_main.py->main line:279 [INFO]34% (17/50)
+[2022-10-26 14:18:48,822] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.8818, -2.5645, -2.3963, -2.5455, -2.3963, -2.6391, -2.8817, -2.6391,
+        -2.6391, -2.5780, -2.7318, -2.8714, -2.5498, -2.7316, -2.8818])
+[2022-10-26 14:18:48,825] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.1682,  0.1682,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0000,  0.0000, -0.1683,  0.0000,  0.0000, -0.0745,
+         0.0000,  0.0000])
+[2022-10-26 14:18:49,302] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 17, batch_idx: 0, global_img_step: 19, aug_ops:[('ShearX', tensor([0.0202]))]
+[2022-10-26 14:18:49,303] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000007, hyper_lr=0.022511	gLtNorm 0.3635 (0.3635)	gLvNorm 0.0978 (0.0978)	mvpNorm 0.1141 (0.1141)
+
+[2022-10-26 14:23:08,020] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 17, batch_idx: 0, global_img_step: 20, aug_ops:[('sharpen', tensor([-0.1646])), ('TranslateX', tensor([-0.1135]))]
+[2022-10-26 14:26:40,120] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 17	 Inner Train loss: 0.7241, acc=0.7292, lr=0.000007	
+[2022-10-26 14:27:01,589] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 17	 Test loss: 0.5964, score: 0.7547
+[2022-10-26 14:27:01,855] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 14:27:01,856] exp4_main.py->main line:279 [INFO]36% (18/50)
+[2022-10-26 14:27:03,110] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.1339, -2.8206, -2.6523, -2.2895, -2.6524, -2.6391, -3.1377, -2.6391,
+        -2.6391, -2.8340, -2.9878, -3.1274, -2.8059, -2.9874, -2.7372])
+[2022-10-26 14:27:03,126] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.1682,  0.1682,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0000,  0.0000, -0.1683,  0.0000,  0.0000, -0.0745,
+         0.0000,  0.0000])
+[2022-10-26 14:27:03,441] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 18, batch_idx: 0, global_img_step: 21, aug_ops:[('Rotate', tensor([-0.4384]))]
+[2022-10-26 14:27:03,442] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000007, hyper_lr=0.031267	gLtNorm 0.0245 (0.0245)	gLvNorm 0.1808 (0.1808)	mvpNorm 0.1033 (0.1033)
+
+[2022-10-26 14:31:24,235] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 18, batch_idx: 0, global_img_step: 22, aug_ops:[('contrast', tensor([-0.0056])), ('TranslateX', tensor([0.4841]))]
+[2022-10-26 14:34:58,853] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 18	 Inner Train loss: 0.6905, acc=0.7447, lr=0.000007	
+[2022-10-26 14:35:20,384] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 18	 Test loss: 0.5933, score: 0.7859
+[2022-10-26 14:35:20,387] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 18 with 0.7859 Dice score
+[2022-10-26 14:35:31,375] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 14:35:31,376] exp4_main.py->main line:279 [INFO]38% (19/50)
+[2022-10-26 14:35:32,720] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.7486, -2.6089, -2.2727, -1.8970, -3.0364, -2.6391, -2.7455, -2.6391,
+        -2.6391, -2.4412, -2.9880, -3.1181, -2.8054, -2.5960, -3.1300])
+[2022-10-26 14:35:32,724] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.1682,  0.1682,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0000,  0.0000, -0.1683,  0.3928,  0.0000, -0.0745,
+         0.0000,  0.0000])
+[2022-10-26 14:35:33,136] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 19, batch_idx: 0, global_img_step: 23, aug_ops:[('saturation', tensor([0.1822]))]
+[2022-10-26 14:35:33,138] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000007, hyper_lr=0.040022	gLtNorm 0.0146 (0.0146)	gLvNorm 0.3877 (0.3877)	mvpNorm 0.3894 (0.3894)
+
+[2022-10-26 14:39:51,416] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 19, batch_idx: 0, global_img_step: 24, aug_ops:[('idenity', [1.0])]
+[2022-10-26 14:43:25,750] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 19	 Inner Train loss: 0.6526, acc=0.7616, lr=0.000007	
+[2022-10-26 14:43:47,242] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 19	 Test loss: 0.5465, score: 0.7668
+[2022-10-26 14:43:47,531] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 14:43:47,532] exp4_main.py->main line:279 [INFO]40% (20/50)
+[2022-10-26 14:43:48,759] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.7584, -3.0656, -2.0647, -1.4455, -2.8139, -2.6391, -2.2999, -2.6391,
+        -2.6391, -2.7232, -3.2173, -3.1329, -2.5561, -2.1414, -3.0275])
+[2022-10-26 14:43:48,763] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.1682, -0.2899,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0000,  0.0000, -0.1683,  0.3928,  0.0000, -0.0745,
+         0.0000,  0.4581])
+[2022-10-26 14:43:49,182] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 20, batch_idx: 0, global_img_step: 25, aug_ops:[('Hed', tensor([ 0.4411, -0.6618, -0.5877])), ('ShearY', tensor([0.3089]))]
+[2022-10-26 14:43:49,183] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000007, hyper_lr=0.047527	gLtNorm 0.1535 (0.1535)	gLvNorm 0.1368 (0.1368)	mvpNorm 0.0701 (0.0701)
+
+[2022-10-26 14:48:05,770] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 20, batch_idx: 0, global_img_step: 26, aug_ops:[('idenity', [1.0])]
+[2022-10-26 14:51:37,661] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 20	 Inner Train loss: 0.6491, acc=0.7592, lr=0.000007	
+[2022-10-26 14:51:59,186] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 20	 Test loss: 0.4773, score: 0.7937
+[2022-10-26 14:51:59,188] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 20 with 0.7937 Dice score
+[2022-10-26 14:52:10,130] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 14:52:10,131] exp4_main.py->main line:279 [INFO]42% (21/50)
+[2022-10-26 14:52:11,387] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.2171, -2.6120, -1.6081, -1.0795, -3.2880, -2.6391, -1.8251, -2.6391,
+        -2.6391, -2.3901, -2.7884, -2.6811, -3.0314, -1.6677, -3.3471])
+[2022-10-26 14:52:11,391] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.1682, -0.2899,  0.0000,  0.0000,  0.0000,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0000,  0.0000, -0.1683,  0.3928,  0.0000, -0.0745,
+         0.0000,  0.4581])
+[2022-10-26 14:52:11,650] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 21, batch_idx: 0, global_img_step: 27, aug_ops:[('Hed', tensor([-0.7548, -0.9443,  0.9048]))]
+[2022-10-26 14:52:11,652] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000006, hyper_lr=0.046465	gLtNorm 336.7418 (336.7418)	gLvNorm 0.6237 (0.6237)	mvpNorm 333.0007 (333.0007)
+
+[2022-10-26 14:56:29,011] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 21, batch_idx: 0, global_img_step: 28, aug_ops:[('Hsv', tensor([ 0.1335, -0.1362, -0.7577])), ('ShearX', tensor([-0.6945]))]
+[2022-10-26 15:00:01,442] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 21	 Inner Train loss: 0.6963, acc=0.7465, lr=0.000006	
+[2022-10-26 15:00:22,941] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 21	 Test loss: 0.5250, score: 0.7766
+[2022-10-26 15:00:23,200] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 15:00:23,201] exp4_main.py->main line:279 [INFO]44% (22/50)
+[2022-10-26 15:00:24,459] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.2079, -2.6200, -1.3542, -1.1459, -3.5889, -2.6391, -1.8367, -2.6391,
+        -2.6391, -2.8125, -2.9930, -2.7874, -3.0304, -1.6532, -3.1500])
+[2022-10-26 15:00:24,462] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.1682, -0.2899, -0.4646,  0.4636,  0.4645,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0000,  0.0000, -0.1683,  0.3928,  0.0000, -0.0745,
+         0.0000,  0.4581])
+[2022-10-26 15:00:24,892] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 22, batch_idx: 0, global_img_step: 29, aug_ops:[('idenity', [1.0])]
+[2022-10-26 15:00:24,894] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000006, hyper_lr=0.045230	gLtNorm 0.1179 (0.1179)	gLvNorm 0.4048 (0.4048)	mvpNorm 0.2197 (0.2197)
+
+[2022-10-26 15:04:45,941] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 22, batch_idx: 0, global_img_step: 30, aug_ops:[('Hed', tensor([-0.2012,  0.0194, -0.2027])), ('gaussian blur', tensor([-0.1896])), ('elastic transform', tensor([0.5306])), ('ShearX', tensor([-0.4860]))]
+[2022-10-26 15:08:20,329] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 22	 Inner Train loss: 0.6764, acc=0.7489, lr=0.000006	
+[2022-10-26 15:08:41,879] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 22	 Test loss: 0.5572, score: 0.7710
+[2022-10-26 15:08:42,140] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 15:08:42,141] exp4_main.py->main line:279 [INFO]46% (23/50)
+[2022-10-26 15:08:43,394] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.6602, -2.1677, -1.8065, -1.5981, -3.1370, -2.6391, -2.2887, -2.6391,
+        -2.6391, -2.3604, -2.5407, -2.3351, -3.4827, -1.2009, -3.6023])
+[2022-10-26 15:08:43,398] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.1682, -0.2899, -0.4646,  0.4636,  0.4645,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.4523,  0.0000, -0.1683,  0.3928,  0.0000, -0.5268,
+         0.0000,  0.4581])
+[2022-10-26 15:08:43,739] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 23, batch_idx: 0, global_img_step: 31, aug_ops:[('gaussian blur', tensor([0.2172])), ('gaussian noise', tensor([-0.0561]))]
+[2022-10-26 15:08:43,740] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000006, hyper_lr=0.043833	gLtNorm 4.9188 (4.9188)	gLvNorm 0.1584 (0.1584)	mvpNorm 5.3840 (5.3840)
+
+[2022-10-26 15:13:03,176] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 23, batch_idx: 0, global_img_step: 32, aug_ops:[('saturation', tensor([0.1801])), ('Hed', tensor([ 0.2576, -0.4283, -0.1790])), ('elastic transform', tensor([-0.0390])), ('ShearX', tensor([0.3676]))]
+[2022-10-26 15:16:27,974] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 23	 Inner Train loss: 0.6883, acc=0.7477, lr=0.000006	
+[2022-10-26 15:16:49,541] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 23	 Test loss: 0.6509, score: 0.7456
+[2022-10-26 15:16:49,809] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 15:16:49,810] exp4_main.py->main line:279 [INFO]48% (24/50)
+[2022-10-26 15:16:51,066] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.6985, -1.8793, -1.7017, -1.7185, -3.4500, -2.6391, -1.8826, -2.6391,
+        -2.6391, -1.9266, -2.9430, -2.4379, -3.7618, -1.2501, -3.2986])
+[2022-10-26 15:16:51,069] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.1682, -0.2899, -0.4646,  0.4636,  0.4645,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.4523,  0.0000, -0.1683,  0.3928,  0.0000, -0.5268,
+         0.0000,  0.0198])
+[2022-10-26 15:16:51,421] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 24, batch_idx: 0, global_img_step: 33, aug_ops:[('idenity', [1.0])]
+[2022-10-26 15:16:51,422] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000005, hyper_lr=0.042284	gLtNorm 0.1817 (0.1817)	gLvNorm 0.0916 (0.0916)	mvpNorm 0.0453 (0.0453)
+
+[2022-10-26 15:21:03,886] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 24, batch_idx: 0, global_img_step: 34, aug_ops:[('sharpen', tensor([0.4551])), ('elastic transform', tensor([-0.8110])), ('Rotate', tensor([0.2840]))]
+[2022-10-26 15:24:27,104] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 24	 Inner Train loss: 0.6809, acc=0.7445, lr=0.000005	
+[2022-10-26 15:24:48,607] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 24	 Test loss: 0.5110, score: 0.7894
+[2022-10-26 15:24:48,883] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 15:24:48,883] exp4_main.py->main line:279 [INFO]50% (25/50)
+[2022-10-26 15:24:49,981] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-4.1213, -1.4565, -1.3014, -1.2956, -3.0272, -2.6391, -1.4598, -2.6391,
+        -2.6391, -2.3459, -3.3528, -2.6322, -3.3392, -1.6723, -3.0371])
+[2022-10-26 15:24:49,984] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.1682, -0.7127, -0.0418,  0.0407,  0.8874,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.4523,  0.0000, -0.1683,  0.3928,  0.0000, -0.5268,
+         0.4228,  0.0198])
+[2022-10-26 15:24:50,327] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 25, batch_idx: 0, global_img_step: 35, aug_ops:[('idenity', [1.0])]
+[2022-10-26 15:24:50,328] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000005, hyper_lr=0.040597	gLtNorm 0.0060 (0.0060)	gLvNorm 0.0072 (0.0072)	mvpNorm 0.0197 (0.0197)
+
+[2022-10-26 15:29:04,814] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 25, batch_idx: 0, global_img_step: 36, aug_ops:[('saturation', tensor([-0.0865])), ('TranslateY', tensor([0.2760]))]
+[2022-10-26 15:32:29,486] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 25	 Inner Train loss: 0.7091, acc=0.7364, lr=0.000005	
+[2022-10-26 15:32:50,996] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 25	 Test loss: 0.5271, score: 0.7875
+[2022-10-26 15:32:51,281] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 15:32:51,282] exp4_main.py->main line:279 [INFO]52% (26/50)
+[2022-10-26 15:32:52,483] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-4.0022, -1.8540, -0.8965, -0.8949, -2.8958, -2.6391, -1.0539, -2.6391,
+        -2.6391, -2.7254, -3.7588, -3.0379, -3.7450, -2.0776, -2.6313])
+[2022-10-26 15:32:52,487] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.0745,  0.1682, -0.3069, -0.1142,  0.0482,  0.4890,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0464,  0.0000, -0.1683,  0.3928,  0.0000, -0.5268,
+         0.4228,  0.0198])
+[2022-10-26 15:32:52,795] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 26, batch_idx: 0, global_img_step: 37, aug_ops:[('TranslateY', tensor([0.1910]))]
+[2022-10-26 15:32:52,796] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000005, hyper_lr=0.038784	gLtNorm 0.3588 (0.3588)	gLvNorm 0.4215 (0.4215)	mvpNorm 0.2244 (0.2244)
+
+[2022-10-26 15:37:02,660] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 26, batch_idx: 0, global_img_step: 38, aug_ops:[('saturation', tensor([0.1027])), ('Hed', tensor([ 0.4193, -0.4201,  0.4409]))]
+[2022-10-26 15:40:23,526] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 26	 Inner Train loss: 0.6638, acc=0.7540, lr=0.000005	
+[2022-10-26 15:40:44,992] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 26	 Test loss: 0.5150, score: 0.7790
+[2022-10-26 15:40:45,262] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 15:40:45,263] exp4_main.py->main line:279 [INFO]54% (27/50)
+[2022-10-26 15:40:46,435] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-4.0389, -1.8073, -0.5378, -0.9023, -2.9204, -2.6391, -1.0544, -2.6391,
+        -2.6391, -2.3811, -3.7599, -3.1826, -3.7151, -2.0692, -2.2819])
+[2022-10-26 15:40:46,438] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624,  0.1682, -0.0643, -0.1315,  0.0500,  0.8302,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0464,  0.0000, -0.1683,  0.3928,  0.0000, -0.1391,
+         0.4228,  0.0198])
+[2022-10-26 15:40:46,777] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 27, batch_idx: 0, global_img_step: 39, aug_ops:[('idenity', [1.0])]
+[2022-10-26 15:40:46,778] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000004, hyper_lr=0.036860	gLtNorm 0.0856 (0.0856)	gLvNorm 0.1144 (0.1144)	mvpNorm 0.0756 (0.0756)
+
+[2022-10-26 15:44:55,305] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 27, batch_idx: 0, global_img_step: 40, aug_ops:[('idenity', [1.0])]
+[2022-10-26 15:48:15,530] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 27	 Inner Train loss: 0.6510, acc=0.7589, lr=0.000004	
+[2022-10-26 15:48:36,951] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 27	 Test loss: 0.5352, score: 0.7829
+[2022-10-26 15:48:37,212] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 15:48:37,213] exp4_main.py->main line:279 [INFO]56% (28/50)
+[2022-10-26 15:48:38,423] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.7331, -1.7091, -0.9064, -0.9013, -3.2433, -2.6391, -1.1517, -2.6391,
+        -2.6391, -2.7104, -3.7600, -2.8157, -3.6762, -1.8527, -2.6395])
+[2022-10-26 15:48:38,427] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.2003, -0.0643, -0.1315,  0.0500,  0.8302,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0464,  0.0000, -0.1683,  0.3928,  0.0000, -0.1391,
+         0.4228, -0.3488])
+[2022-10-26 15:48:38,683] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 28, batch_idx: 0, global_img_step: 41, aug_ops:[('brightness', tensor([0.5348])), ('saturation', tensor([-0.3639])), ('TranslateY', tensor([-0.0909]))]
+[2022-10-26 15:48:38,684] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000004, hyper_lr=0.034841	gLtNorm 1.4815 (1.4815)	gLvNorm 0.0088 (0.0088)	mvpNorm 1.5534 (1.5534)
+
+[2022-10-26 15:52:47,542] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 28, batch_idx: 0, global_img_step: 42, aug_ops:[('saturation', tensor([0.9935]))]
+[2022-10-26 15:56:08,819] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 28	 Inner Train loss: 0.6505, acc=0.7602, lr=0.000004	
+[2022-10-26 15:56:30,457] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 28	 Test loss: 0.5118, score: 0.7856
+[2022-10-26 15:56:30,737] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 15:56:30,738] exp4_main.py->main line:279 [INFO]58% (29/50)
+[2022-10-26 15:56:31,986] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.3847, -2.0575, -0.9064, -0.5530, -2.9350, -2.6391, -0.9855, -2.6391,
+        -2.6391, -2.3620, -4.1065, -2.5226, -4.0245, -2.2009, -2.3032])
+[2022-10-26 15:56:31,990] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.2003, -0.0643, -0.1315, -0.2984,  1.1786,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.0464,  0.0000, -0.1683,  0.3928,  0.0000, -0.1391,
+         0.4228, -0.3488])
+[2022-10-26 15:56:32,147] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 29, batch_idx: 0, global_img_step: 43, aug_ops:[('brightness', tensor([0.0928])), ('contrast', tensor([-0.0227]))]
+[2022-10-26 15:56:32,148] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000004, hyper_lr=0.032743	gLtNorm 21.0481 (21.0481)	gLvNorm 0.1772 (0.1772)	mvpNorm 19.8749 (19.8749)
+
+[2022-10-26 16:00:44,055] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 29, batch_idx: 0, global_img_step: 44, aug_ops:[('idenity', [1.0])]
+[2022-10-26 16:04:10,005] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 29	 Inner Train loss: 0.6388, acc=0.7631, lr=0.000004	
+[2022-10-26 16:04:31,514] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 29	 Test loss: 0.4811, score: 0.8095
+[2022-10-26 16:04:31,516] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 29 with 0.8095 Dice score
+[2022-10-26 16:04:42,485] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 16:04:42,485] exp4_main.py->main line:279 [INFO]60% (30/50)
+[2022-10-26 16:04:43,760] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.0703, -1.7374, -0.5790, -0.8711, -2.6076, -2.6391, -1.3128, -2.6391,
+        -2.6391, -2.3621, -4.4325, -2.1954, -4.3516, -2.5272, -2.6306])
+[2022-10-26 16:04:43,764] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.2003, -0.0643, -0.4589, -0.3907,  1.1799,  0.0000,  0.0000,
+         0.0000,  0.0000,  0.3738,  0.0000, -0.1683,  0.3928,  0.0000, -0.1391,
+         0.4228, -0.3488])
+[2022-10-26 16:04:43,947] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 30, batch_idx: 0, global_img_step: 45, aug_ops:[('brightness', tensor([0.8276]))]
+[2022-10-26 16:04:43,947] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000003, hyper_lr=0.030582	gLtNorm 18.7161 (18.7161)	gLvNorm 0.3351 (0.3351)	mvpNorm 21.0022 (21.0022)
+
+[2022-10-26 16:08:54,965] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 30, batch_idx: 0, global_img_step: 46, aug_ops:[('gaussian noise', tensor([-0.2938]))]
+[2022-10-26 16:12:29,118] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 30	 Inner Train loss: 0.6411, acc=0.7596, lr=0.000003	
+[2022-10-26 16:12:50,588] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 30	 Test loss: 0.4917, score: 0.8034
+[2022-10-26 16:12:50,874] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 16:12:50,875] exp4_main.py->main line:279 [INFO]62% (31/50)
+[2022-10-26 16:12:52,086] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.9094, -1.5951, -0.5859, -1.1767, -2.9131, -2.6391, -1.6178, -2.6391,
+        -2.6391, -2.6679, -4.1280, -1.8897, -4.3683, -2.2215, -2.7523])
+[2022-10-26 16:12:52,090] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.2003, -0.0643, -0.4589, -0.3907,  1.1799,  0.0000,  0.0000,
+        -0.3058,  0.0000,  0.3738,  0.0000, -0.1683,  0.6986,  0.0000, -0.1391,
+         0.4228, -0.3488])
+[2022-10-26 16:12:52,386] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 31, batch_idx: 0, global_img_step: 47, aug_ops:[('TranslateY', tensor([-0.5326]))]
+[2022-10-26 16:12:52,387] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000003, hyper_lr=0.028377	gLtNorm 0.3526 (0.3526)	gLvNorm 0.0244 (0.0244)	mvpNorm 0.2751 (0.2751)
+
+[2022-10-26 16:17:08,749] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 31, batch_idx: 0, global_img_step: 48, aug_ops:[('idenity', [1.0])]
+[2022-10-26 16:20:29,958] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 31	 Inner Train loss: 0.6192, acc=0.7754, lr=0.000003	
+[2022-10-26 16:20:51,511] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 31	 Test loss: 0.4801, score: 0.8056
+[2022-10-26 16:20:51,784] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 16:20:51,785] exp4_main.py->main line:279 [INFO]64% (32/50)
+[2022-10-26 16:20:52,942] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.1932, -1.3114, -0.6952, -0.8938, -2.6577, -2.6391, -1.5998, -2.6391,
+        -2.6391, -2.8027, -4.2807, -1.7530, -4.6158, -2.3501, -3.0361])
+[2022-10-26 16:20:52,946] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.2003, -0.3478, -0.4589, -0.3907,  1.1799,  0.0000,  0.0000,
+        -0.3058,  0.0000,  0.3738,  0.0000, -0.1683,  0.6986,  0.0000,  0.1447,
+         0.4228, -0.3488])
+[2022-10-26 16:20:53,202] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 32, batch_idx: 0, global_img_step: 49, aug_ops:[('TranslateY', tensor([-0.8589])), ('ShearX', tensor([0.3774]))]
+[2022-10-26 16:20:53,204] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000003, hyper_lr=0.026145	gLtNorm 6.4566 (6.4566)	gLvNorm 0.1492 (0.1492)	mvpNorm 7.0530 (7.0530)
+
+[2022-10-26 16:25:05,286] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 32, batch_idx: 0, global_img_step: 50, aug_ops:[('gaussian noise', tensor([-0.1089])), ('TranslateX', tensor([0.7060])), ('ShearY', tensor([-0.1765]))]
+[2022-10-26 16:28:34,703] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 32	 Inner Train loss: 0.6175, acc=0.7713, lr=0.000003	
+[2022-10-26 16:28:56,151] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 32	 Test loss: 0.4756, score: 0.8111
+[2022-10-26 16:28:56,153] exp4_main.py->main line:301 [INFO]SAVING trained model at epoch 32 with 0.8111 Dice score
+[2022-10-26 16:29:07,204] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 16:29:07,205] exp4_main.py->main line:279 [INFO]66% (33/50)
+[2022-10-26 16:29:08,419] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.9456, -1.5687, -0.4338, -0.8294, -2.9192, -2.6391, -1.3384, -2.6391,
+        -2.6391, -2.9209, -4.0252, -1.4917, -4.3544, -2.0891, -2.7749])
+[2022-10-26 16:29:08,423] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.2003, -0.3478, -0.4589, -0.3907,  1.1799,  0.0000,  0.0000,
+        -0.3058,  0.0000,  0.1123,  0.0000, -0.1683,  0.6986,  0.0000,  0.1447,
+         0.4228, -0.3488])
+[2022-10-26 16:29:08,598] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 33, batch_idx: 0, global_img_step: 51, aug_ops:[('contrast', tensor([-0.2068])), ('gaussian blur', tensor([0.1190]))]
+[2022-10-26 16:29:08,599] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000003, hyper_lr=0.023905	gLtNorm 0.2307 (0.2307)	gLvNorm 0.0748 (0.0748)	mvpNorm 0.4404 (0.4404)
+
+[2022-10-26 16:33:26,587] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 33, batch_idx: 0, global_img_step: 52, aug_ops:[('sharpen', tensor([-1.])), ('gaussian noise', tensor([0.3240])), ('TranslateY', tensor([0.1448])), ('Equalize', tensor([0.2770]))]
+[2022-10-26 16:36:49,453] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 33	 Inner Train loss: 0.6258, acc=0.7668, lr=0.000003	
+[2022-10-26 16:37:11,046] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 33	 Test loss: 0.5480, score: 0.7810
+[2022-10-26 16:37:11,328] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 16:37:11,328] exp4_main.py->main line:279 [INFO]68% (34/50)
+[2022-10-26 16:37:12,516] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.1846, -1.8077, -0.6693, -0.5904, -3.1579, -2.6391, -1.0995, -2.6391,
+        -2.6391, -3.1599, -3.7861, -1.7307, -4.5925, -1.8501, -2.6475])
+[2022-10-26 16:37:12,520] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.2003, -0.3478, -0.4589, -0.3907,  1.1799,  0.0000,  0.0000,
+        -0.3058,  0.0000,  0.3514,  0.0000, -0.1683,  0.6986,  0.0000, -0.0944,
+         0.4228, -0.3488])
+[2022-10-26 16:37:12,824] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 34, batch_idx: 0, global_img_step: 53, aug_ops:[('TranslateY', tensor([-0.1471]))]
+[2022-10-26 16:37:12,825] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000002, hyper_lr=0.021673	gLtNorm 0.1931 (0.1931)	gLvNorm 0.1076 (0.1076)	mvpNorm 0.1703 (0.1703)
+
+[2022-10-26 16:41:32,694] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 34, batch_idx: 0, global_img_step: 54, aug_ops:[('contrast', tensor([-0.6515])), ('Hsv', tensor([-0.5713,  0.0559, -0.0818])), ('Hed', tensor([-0.2238, -0.1384,  0.1668]))]
+[2022-10-26 16:44:52,358] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 34	 Inner Train loss: 0.6039, acc=0.7771, lr=0.000002	
+[2022-10-26 16:45:13,872] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 34	 Test loss: 0.5261, score: 0.7984
+[2022-10-26 16:45:14,168] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 16:45:14,169] exp4_main.py->main line:279 [INFO]70% (35/50)
+[2022-10-26 16:45:15,365] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.1846, -1.8081, -0.6698, -0.5887, -3.1582, -2.6391, -1.0991, -2.6391,
+        -2.6391, -3.1549, -3.7871, -1.7307, -4.5900, -1.8501, -2.6455])
+[2022-10-26 16:45:15,368] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.2003, -0.3478, -0.2424, -0.1756,  1.3967,  0.0000,  0.0000,
+        -0.3058,  0.0000,  0.3514,  0.0000, -0.1683,  0.6986, -0.2167, -0.0944,
+         0.4228, -0.3488])
+[2022-10-26 16:45:15,714] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 35, batch_idx: 0, global_img_step: 55, aug_ops:[('Hsv', tensor([ 0.1481, -0.0891,  0.6080])), ('Rotate', tensor([0.2359])), ('ShearY', tensor([-0.3738]))]
+[2022-10-26 16:45:15,715] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000002, hyper_lr=0.019468	gLtNorm 0.1841 (0.1841)	gLvNorm 0.6960 (0.6960)	mvpNorm 1.4406 (1.4406)
+
+[2022-10-26 16:49:26,157] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 35, batch_idx: 0, global_img_step: 56, aug_ops:[('gaussian noise', tensor([-0.4996]))]
+[2022-10-26 16:52:45,976] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 35	 Inner Train loss: 0.6359, acc=0.7625, lr=0.000002	
+[2022-10-26 16:53:07,440] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 35	 Test loss: 0.5329, score: 0.7808
+[2022-10-26 16:53:07,752] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 16:53:07,753] exp4_main.py->main line:279 [INFO]72% (36/50)
+[2022-10-26 16:53:09,033] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.0063, -1.6159, -0.8644, -0.7833, -2.9714, -2.6391, -1.2103, -2.6391,
+        -2.6391, -2.9603, -3.7993, -1.5995, -4.3953, -1.6565, -2.4508])
+[2022-10-26 16:53:09,035] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.2003, -0.1531, -0.0477,  0.0190,  1.2020,  0.0000,  0.0000,
+        -0.5005,  0.0000,  0.3514,  0.0000, -0.1683,  0.6986, -0.2167, -0.0944,
+         0.6175, -0.3488])
+[2022-10-26 16:53:09,346] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 36, batch_idx: 0, global_img_step: 57, aug_ops:[('idenity', [1.0])]
+[2022-10-26 16:53:09,347] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000002, hyper_lr=0.017307	gLtNorm 0.2351 (0.2351)	gLvNorm 0.1941 (0.1941)	mvpNorm 0.0527 (0.0527)
+
+[2022-10-26 16:57:18,770] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 36, batch_idx: 0, global_img_step: 58, aug_ops:[('saturation', tensor([0.2730])), ('Rotate', tensor([-0.7009])), ('TranslateX', tensor([0.0448])), ('ShearX', tensor([0.2655]))]
+[2022-10-26 17:00:38,977] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 36	 Inner Train loss: 0.6256, acc=0.7645, lr=0.000002	
+[2022-10-26 17:01:00,465] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 36	 Test loss: 0.5137, score: 0.7882
+[2022-10-26 17:01:00,822] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 17:01:00,823] exp4_main.py->main line:279 [INFO]74% (37/50)
+[2022-10-26 17:01:02,106] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.1561, -1.4430, -0.6918, -0.7035, -3.1445, -2.6391, -1.2103, -2.6391,
+        -2.6391, -3.1324, -3.9724, -1.7587, -4.4056, -1.8206, -2.5908])
+[2022-10-26 17:01:02,119] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.2003, -0.1531, -0.0477,  0.0190,  1.2020,  0.0000,  0.0000,
+        -0.5005,  0.0000,  0.5244,  0.0000, -0.1683,  0.6986, -0.2167, -0.0944,
+         0.6175, -0.3488])
+[2022-10-26 17:01:02,519] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 37, batch_idx: 0, global_img_step: 59, aug_ops:[('sharpen', tensor([-0.0103])), ('Equalize', tensor([0.1857]))]
+[2022-10-26 17:01:02,520] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000002, hyper_lr=0.015209	gLtNorm 0.1463 (0.1463)	gLvNorm 0.3107 (0.3107)	mvpNorm 0.2464 (0.2464)
+
+[2022-10-26 17:05:11,817] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 37, batch_idx: 0, global_img_step: 60, aug_ops:[('idenity', [1.0])]
+[2022-10-26 17:08:32,562] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 37	 Inner Train loss: 0.6042, acc=0.7728, lr=0.000002	
+[2022-10-26 17:08:54,034] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 37	 Test loss: 0.5026, score: 0.7980
+[2022-10-26 17:08:54,356] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 17:08:54,357] exp4_main.py->main line:279 [INFO]76% (38/50)
+[2022-10-26 17:08:55,637] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.0121, -1.2915, -0.5412, -0.8555, -3.0363, -2.6391, -1.0582, -2.6391,
+        -2.6391, -2.9838, -4.0010, -1.6067, -4.2543, -1.9510, -2.7429])
+[2022-10-26 17:08:55,641] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.0483, -0.3051, -0.1998,  0.1710,  1.3425,  0.0000,  0.0000,
+        -0.5005,  0.0000,  0.5244,  0.0000, -0.1683,  0.6986, -0.2167, -0.0944,
+         0.7696, -0.3488])
+[2022-10-26 17:08:55,939] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 38, batch_idx: 0, global_img_step: 61, aug_ops:[('contrast', tensor([-0.0601])), ('Rotate', tensor([-0.5200]))]
+[2022-10-26 17:08:55,939] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000001, hyper_lr=0.013190	gLtNorm 0.0218 (0.0218)	gLvNorm 0.1192 (0.1192)	mvpNorm 0.0656 (0.0656)
+
+[2022-10-26 17:13:08,273] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 38, batch_idx: 0, global_img_step: 62, aug_ops:[('gaussian noise', tensor([-0.3097]))]
+[2022-10-26 17:16:28,588] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 38	 Inner Train loss: 0.6033, acc=0.7778, lr=0.000001	
+[2022-10-26 17:16:50,107] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 38	 Test loss: 0.4771, score: 0.8005
+[2022-10-26 17:16:50,416] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 17:16:50,417] exp4_main.py->main line:279 [INFO]78% (39/50)
+[2022-10-26 17:16:51,678] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.8804, -1.1603, -0.6627, -0.7237, -2.9065, -2.6391, -1.1566, -2.7710,
+        -2.6391, -3.1155, -3.8711, -1.4797, -4.3862, -2.0822, -2.8740])
+[2022-10-26 17:16:51,683] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.0483, -0.4205, -0.1998,  0.1710,  1.3425,  0.0000,  0.0000,
+        -0.5005,  0.0000,  0.5244,  0.1319, -0.1683,  0.6986, -0.2167, -0.0944,
+         0.7696, -0.3488])
+[2022-10-26 17:16:51,946] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 39, batch_idx: 0, global_img_step: 63, aug_ops:[('contrast', tensor([0.4615])), ('Hsv', tensor([-0.1215,  0.7584,  0.8857])), ('Rotate', tensor([0.2267]))]
+[2022-10-26 17:16:51,947] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000001, hyper_lr=0.011266	gLtNorm 0.0885 (0.0885)	gLvNorm 0.0669 (0.0669)	mvpNorm 0.0285 (0.0285)
+
+[2022-10-26 17:21:03,692] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 39, batch_idx: 0, global_img_step: 64, aug_ops:[('saturation', tensor([0.2221])), ('TranslateY', tensor([-0.3575]))]
+[2022-10-26 17:24:26,332] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 39	 Inner Train loss: 0.5839, acc=0.7866, lr=0.000001	
+[2022-10-26 17:24:47,810] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 39	 Test loss: 0.4781, score: 0.8033
+[2022-10-26 17:24:48,115] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 17:24:48,115] exp4_main.py->main line:279 [INFO]80% (40/50)
+[2022-10-26 17:24:49,280] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.9931, -1.0478, -0.5501, -0.6125, -3.0191, -2.6391, -1.0440, -2.7710,
+        -2.6391, -3.0038, -3.7585, -1.3674, -4.4981, -1.9706, -2.9739])
+[2022-10-26 17:24:49,284] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.0483, -0.4205, -0.1998,  0.1710,  1.3425,  0.0000,  0.0000,
+        -0.6132, -0.1127,  0.5244,  0.1319, -0.1683,  0.6986, -0.2167,  0.0183,
+         0.7696, -0.3488])
+[2022-10-26 17:24:49,435] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 40, batch_idx: 0, global_img_step: 65, aug_ops:[('contrast', tensor([0.1280])), ('ShearY', tensor([-0.0536]))]
+[2022-10-26 17:24:49,435] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000001, hyper_lr=0.009453	gLtNorm 0.0643 (0.0643)	gLvNorm 0.1832 (0.1832)	mvpNorm 0.2728 (0.2728)
+
+[2022-10-26 17:29:04,572] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 40, batch_idx: 0, global_img_step: 66, aug_ops:[('contrast', tensor([-0.0300])), ('gaussian blur', tensor([-0.4194]))]
+[2022-10-26 17:32:27,374] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 40	 Inner Train loss: 0.5907, acc=0.7784, lr=0.000001	
+[2022-10-26 17:32:49,012] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 40	 Test loss: 0.4666, score: 0.8048
+[2022-10-26 17:32:49,292] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 17:32:49,292] exp4_main.py->main line:279 [INFO]82% (41/50)
+[2022-10-26 17:32:50,488] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.0824, -1.0330, -0.6445, -0.5552, -3.0119, -2.6391, -0.9495, -2.7710,
+        -2.6391, -3.0984, -3.6640, -1.4619, -4.4041, -1.8761, -3.0565])
+[2022-10-26 17:32:50,492] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.1428, -0.4205, -0.1998,  0.1710,  1.3425,  0.0000,  0.0000,
+        -0.6132, -0.1127,  0.6190,  0.1319, -0.1683,  0.6986, -0.2167,  0.0183,
+         0.7696, -0.2543])
+[2022-10-26 17:32:51,137] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 41, batch_idx: 0, global_img_step: 67, aug_ops:[('idenity', [1.0])]
+[2022-10-26 17:32:51,138] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000001, hyper_lr=0.007766	gLtNorm 0.0822 (0.0822)	gLvNorm 0.3556 (0.3556)	mvpNorm 0.4756 (0.4756)
+
+[2022-10-26 17:37:01,763] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 41, batch_idx: 0, global_img_step: 68, aug_ops:[('Hed', tensor([-0.0575,  0.2781,  0.4080])), ('gaussian noise', tensor([-0.2917]))]
+[2022-10-26 17:40:22,256] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 41	 Inner Train loss: 0.5797, acc=0.7841, lr=0.000001	
+[2022-10-26 17:40:43,808] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 41	 Test loss: 0.4960, score: 0.7994
+[2022-10-26 17:40:44,056] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 17:40:44,056] exp4_main.py->main line:279 [INFO]84% (42/50)
+[2022-10-26 17:40:45,211] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-3.0133, -1.0324, -0.6431, -0.4779, -2.9384, -2.6391, -0.9855, -2.7710,
+        -2.6391, -3.0824, -3.6344, -1.3983, -4.3305, -1.9532, -3.0563])
+[2022-10-26 17:40:45,215] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.1381, -0.3429, -0.1998,  0.1710,  1.3425,  0.0000,  0.0000,
+        -0.6132, -0.1127,  0.6190,  0.1319, -0.1683,  0.6986, -0.2167,  0.0183,
+         0.7696, -0.2543])
+[2022-10-26 17:40:45,533] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 42, batch_idx: 0, global_img_step: 69, aug_ops:[('sharpen', tensor([-0.2529])), ('TranslateX', tensor([0.4499])), ('ShearX', tensor([-0.1632]))]
+[2022-10-26 17:40:45,534] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000001, hyper_lr=0.006217	gLtNorm 0.2932 (0.2932)	gLvNorm 0.4138 (0.4138)	mvpNorm 1.3224 (1.3224)
+
+[2022-10-26 17:44:55,932] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 42, batch_idx: 0, global_img_step: 70, aug_ops:[('contrast', tensor([-0.1722]))]
+[2022-10-26 17:48:17,894] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 42	 Inner Train loss: 0.5638, acc=0.7924, lr=0.000001	
+[2022-10-26 17:48:39,481] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 42	 Test loss: 0.4972, score: 0.8048
+[2022-10-26 17:48:39,738] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 17:48:39,739] exp4_main.py->main line:279 [INFO]86% (43/50)
+[2022-10-26 17:48:40,937] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.9511, -0.9702, -0.7052, -0.5401, -3.0006, -2.6391, -0.9234, -2.7710,
+        -2.6391, -3.1437, -3.6397, -1.4605, -4.2728, -1.8927, -3.1184])
+[2022-10-26 17:48:40,940] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.1381, -0.2807, -0.1998,  0.1710,  1.3425,  0.0000,  0.0000,
+        -0.6132, -0.1127,  0.6190,  0.1319, -0.1683,  0.6986, -0.2167,  0.0183,
+         0.7696, -0.2543])
+[2022-10-26 17:48:41,126] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 43, batch_idx: 0, global_img_step: 71, aug_ops:[('contrast', tensor([0.4829])), ('gaussian blur', tensor([-0.0381]))]
+[2022-10-26 17:48:41,127] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000000, hyper_lr=0.004820	gLtNorm 0.2352 (0.2352)	gLvNorm 0.0261 (0.0261)	mvpNorm 0.1925 (0.1925)
+
+[2022-10-26 17:52:52,109] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 43, batch_idx: 0, global_img_step: 72, aug_ops:[('idenity', [1.0])]
+[2022-10-26 17:56:13,391] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 43	 Inner Train loss: 0.5736, acc=0.7909, lr=0.000000	
+[2022-10-26 17:56:35,011] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 43	 Test loss: 0.5130, score: 0.8000
+[2022-10-26 17:56:35,271] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 17:56:35,272] exp4_main.py->main line:279 [INFO]88% (44/50)
+[2022-10-26 17:56:36,437] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.9817, -0.9384, -0.6570, -0.5521, -3.0257, -2.6391, -0.9716, -2.7710,
+        -2.6391, -3.0956, -3.5915, -1.5085, -4.2246, -1.9409, -3.0703])
+[2022-10-26 17:56:36,441] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4624, -0.1381, -0.2807, -0.1998,  0.1710,  1.3425,  0.0000,  0.0000,
+        -0.6132, -0.1127,  0.6672,  0.0837, -0.1683,  0.6986, -0.2167,  0.0183,
+         0.7696, -0.3025])
+[2022-10-26 17:56:36,679] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 44, batch_idx: 0, global_img_step: 73, aug_ops:[('contrast', tensor([-0.0029])), ('gaussian blur', tensor([-0.3940])), ('Rotate', tensor([0.2240]))]
+[2022-10-26 17:56:36,680] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000000, hyper_lr=0.003585	gLtNorm 0.2746 (0.2746)	gLvNorm 0.3700 (0.3700)	mvpNorm 0.3270 (0.3270)
+
+[2022-10-26 18:00:47,673] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 44, batch_idx: 0, global_img_step: 74, aug_ops:[('idenity', [1.0])]
+[2022-10-26 18:04:08,801] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 44	 Inner Train loss: 0.5912, acc=0.7822, lr=0.000000	
+[2022-10-26 18:04:30,420] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 44	 Test loss: 0.4961, score: 0.8034
+[2022-10-26 18:04:30,670] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 18:04:30,670] exp4_main.py->main line:279 [INFO]90% (45/50)
+[2022-10-26 18:04:31,867] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.9458, -0.9730, -0.6904, -0.5163, -2.9902, -2.6391, -0.9716, -2.7710,
+        -2.6391, -3.1304, -3.5954, -1.5334, -4.2228, -1.9400, -3.0637])
+[2022-10-26 18:04:31,871] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4265, -0.1381, -0.2807, -0.1998,  0.1710,  1.3425, -0.0359,  0.0359,
+        -0.6490, -0.1127,  0.6672,  0.0837, -0.1683,  0.6628, -0.2167, -0.0176,
+         0.7696, -0.3025])
+[2022-10-26 18:04:32,094] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 45, batch_idx: 0, global_img_step: 75, aug_ops:[('TranslateX', tensor([-0.5395]))]
+[2022-10-26 18:04:32,095] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000000, hyper_lr=0.002523	gLtNorm 0.0203 (0.0203)	gLvNorm 0.0488 (0.0488)	mvpNorm 0.0160 (0.0160)
+
+[2022-10-26 18:08:41,996] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 45, batch_idx: 0, global_img_step: 76, aug_ops:[('Rotate', tensor([0.5665]))]
+[2022-10-26 18:12:02,909] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 45	 Inner Train loss: 0.5574, acc=0.7899, lr=0.000000	
+[2022-10-26 18:12:24,424] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 45	 Test loss: 0.4946, score: 0.8061
+[2022-10-26 18:12:24,690] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 18:12:24,691] exp4_main.py->main line:279 [INFO]92% (46/50)
+[2022-10-26 18:12:25,841] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.9206, -0.9756, -0.6891, -0.5189, -2.9926, -2.6391, -0.9717, -2.7710,
+        -2.6391, -3.1385, -3.6011, -1.5319, -4.1983, -1.9213, -3.0778])
+[2022-10-26 18:12:25,845] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4265, -0.1381, -0.2783, -0.2250,  0.1962,  1.3172, -0.0359,  0.0359,
+        -0.6490, -0.1127,  0.6672,  0.0837, -0.1683,  0.6628, -0.2167, -0.0176,
+         0.7444, -0.3025])
+[2022-10-26 18:12:26,013] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 46, batch_idx: 0, global_img_step: 77, aug_ops:[('contrast', tensor([0.3438])), ('ShearY', tensor([-0.8014]))]
+[2022-10-26 18:12:26,014] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000000, hyper_lr=0.001643	gLtNorm 13.7787 (13.7787)	gLvNorm 0.0856 (0.0856)	mvpNorm 12.5265 (12.5265)
+
+[2022-10-26 18:16:36,047] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 46, batch_idx: 0, global_img_step: 78, aug_ops:[('contrast', tensor([-0.2915])), ('sharpen', tensor([-1.]))]
+[2022-10-26 18:19:56,792] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 46	 Inner Train loss: 0.5943, acc=0.7808, lr=0.000000	
+[2022-10-26 18:20:18,329] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 46	 Test loss: 0.4707, score: 0.8076
+[2022-10-26 18:20:18,578] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 18:20:18,578] exp4_main.py->main line:279 [INFO]94% (47/50)
+[2022-10-26 18:20:19,778] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.9298, -0.9592, -0.7053, -0.5353, -3.0090, -2.6391, -0.9881, -2.7710,
+        -2.6391, -3.1452, -3.5888, -1.5483, -4.2147, -1.9377, -3.0942])
+[2022-10-26 18:20:19,782] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4265, -0.1381, -0.2783, -0.2250,  0.1962,  1.3172, -0.0359,  0.0194,
+        -0.6490, -0.1127,  0.6672,  0.0837, -0.1683,  0.6628, -0.2167, -0.0340,
+         0.7444, -0.3189])
+[2022-10-26 18:20:20,162] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 47, batch_idx: 0, global_img_step: 79, aug_ops:[('Hed', tensor([ 0.0037, -1.0000,  0.3112])), ('ShearX', tensor([0.6295]))]
+[2022-10-26 18:20:20,164] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000000, hyper_lr=0.000950	gLtNorm 1.9622 (1.9622)	gLvNorm 0.0773 (0.0773)	mvpNorm 2.4614 (2.4614)
+
+[2022-10-26 18:24:30,716] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 47, batch_idx: 0, global_img_step: 80, aug_ops:[('idenity', [1.0])]
+[2022-10-26 18:27:51,512] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 47	 Inner Train loss: 0.5743, acc=0.7847, lr=0.000000	
+[2022-10-26 18:28:13,028] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 47	 Test loss: 0.4753, score: 0.8055
+[2022-10-26 18:28:13,281] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 18:28:13,282] exp4_main.py->main line:279 [INFO]96% (48/50)
+[2022-10-26 18:28:14,431] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.9298, -0.9592, -0.7041, -0.5448, -3.0153, -2.6391, -0.9786, -2.7710,
+        -2.6391, -3.1547, -3.5983, -1.5389, -4.2242, -1.9283, -3.0942])
+[2022-10-26 18:28:14,436] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4265, -0.1286, -0.2783, -0.2345,  0.2053,  1.3077, -0.0359,  0.0194,
+        -0.6490, -0.1127,  0.6767,  0.0837, -0.1683,  0.6628, -0.2167, -0.0340,
+         0.7444, -0.3189])
+[2022-10-26 18:28:14,803] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 48, batch_idx: 0, global_img_step: 81, aug_ops:[('Rotate', tensor([-0.0811]))]
+[2022-10-26 18:28:14,805] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000000, hyper_lr=0.000451	gLtNorm 0.0547 (0.0547)	gLvNorm 0.1335 (0.1335)	mvpNorm 0.3208 (0.3208)
+
+[2022-10-26 18:32:26,061] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 48, batch_idx: 0, global_img_step: 82, aug_ops:[('Equalize', tensor([-0.6705]))]
+[2022-10-26 18:35:46,223] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 48	 Inner Train loss: 0.5512, acc=0.7947, lr=0.000000	
+[2022-10-26 18:36:07,832] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 48	 Test loss: 0.4891, score: 0.8084
+[2022-10-26 18:36:08,082] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 18:36:08,082] exp4_main.py->main line:279 [INFO]98% (49/50)
+[2022-10-26 18:36:09,209] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramP_tensor([-2.9314, -0.9590, -0.7081, -0.5480, -3.0198, -2.6391, -0.9809, -2.7710,
+        -2.6391, -3.1547, -3.5983, -1.5344, -4.2284, -1.9287, -3.0903])
+[2022-10-26 18:36:09,214] automodels.py->Med_hyperHesTrain line:923 [INFO]data point 0 weight: paramM_tensor([-0.4265, -0.1286, -0.2828, -0.2300,  0.2008,  1.3072, -0.0359,  0.0194,
+        -0.6490, -0.1127,  0.6767,  0.0837, -0.1683,  0.6628, -0.2167, -0.0340,
+         0.7444, -0.3189])
+[2022-10-26 18:36:09,389] automodels.py->Med_hyperHesTrain line:948 [INFO]hyperTrain epoch: 49, batch_idx: 0, global_img_step: 83, aug_ops:[('contrast', tensor([0.2223])), ('Hed', tensor([-0.1827, -0.0961, -0.1336]))]
+[2022-10-26 18:36:09,390] automodels.py->Med_hyperHesTrain line:954 [INFO]hyperTrain batch 0% (0/425), task_lr=0.000000, hyper_lr=0.000151	gLtNorm 0.1806 (0.1806)	gLvNorm 0.1391 (0.1391)	mvpNorm 0.2451 (0.2451)
+
+[2022-10-26 18:40:19,471] automodels.py->Med_innerTrain line:1026 [INFO]Train epoch: 49, batch_idx: 0, global_img_step: 84, aug_ops:[('idenity', [1.0])]
+[2022-10-26 18:43:40,944] automodels.py->Med_innerTrain line:1043 [INFO]Epoch: 49	 Inner Train loss: 0.5646, acc=0.7917, lr=0.000000	
+[2022-10-26 18:44:02,551] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 49	 Test loss: 0.4992, score: 0.8019
+[2022-10-26 18:44:02,819] exp4_main.py->main line:320 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp5_allData_UNet_e50_opt_HES_est_True_aug_model_SEP_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-26 18:44:02,819] exp4_main.py->main line:322 [INFO]BEST trained model at 32 has 0.8111 Dice score

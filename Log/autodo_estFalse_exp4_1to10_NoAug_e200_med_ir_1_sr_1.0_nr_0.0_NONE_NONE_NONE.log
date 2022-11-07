@@ -1,0 +1,814 @@
+[2022-10-24 17:35:24,203] exp4_main.py->main line:120 [INFO]Namespace(aug_model='NONE', data='./local_data', dataset='med', epochs=200, gpu='2', hyper_alpha=0.01, hyper_beta=0, hyper_est=False, hyper_gamma=0, hyper_iters=5, hyper_opt='NONE', hyper_steps=0, imbalance_ratio=1, log_interval=500, los_model='NONE', lr_cosine=True, lr_decay_epochs='30,55,80', lr_decay_rate=0.1, lr_warm=True, lr_warm_epochs=5, no_cuda=False, noise_ratio=0.0, overfit=False, oversplit=False, plot_debug=False, run_folder='exp4_1to10_NoAug', scale=1, subsample_ratio=1.0, workers=4)
+[2022-10-24 17:36:10,921] exp4_main.py->main line:120 [INFO]Namespace(aug_model='NONE', data='./local_data', dataset='med', epochs=200, gpu='3', hyper_alpha=0.01, hyper_beta=0, hyper_est=False, hyper_gamma=0, hyper_iters=5, hyper_opt='NONE', hyper_steps=0, imbalance_ratio=1, log_interval=500, los_model='NONE', lr_cosine=True, lr_decay_epochs='30,55,80', lr_decay_rate=0.1, lr_warm=True, lr_warm_epochs=5, no_cuda=False, noise_ratio=0.0, overfit=False, oversplit=False, plot_debug=False, run_folder='exp4_1to10_NoAug', scale=1, subsample_ratio=1.0, workers=4)
+[2022-10-24 17:36:32,011] exp4_main.py->main line:182 [INFO]Valid/Train Split: 260/56
+[2022-10-24 17:36:32,016] exp4_main.py->main line:235 [INFO]Test/Valid/Train Split: 43/56/260 out of total 288 train images
+[2022-10-24 17:36:32,075] exp4_main.py->main line:268 [INFO]Run: ./local_data/med/exp4_1to10_NoAug/UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0
+[2022-10-24 17:36:32,076] exp4_main.py->main line:277 [INFO]0% (0/200)
+[2022-10-24 17:37:02,986] automodels.py->classTrain line:1160 [INFO]Epoch: 0	 Class Train loss: 0.9112, Train score: 0.6273
+[2022-10-24 17:37:04,945] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 0	 Test loss: 1.1687, score: 0.5960
+[2022-10-24 17:37:04,947] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 0 with 0.5960 Dice score
+[2022-10-24 17:37:15,862] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:37:15,863] exp4_main.py->main line:277 [INFO]0% (1/200)
+[2022-10-24 17:37:45,268] automodels.py->classTrain line:1160 [INFO]Epoch: 1	 Class Train loss: 0.6108, Train score: 0.7635
+[2022-10-24 17:37:47,261] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 1	 Test loss: 1.4103, score: 0.4893
+[2022-10-24 17:37:47,662] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:37:47,663] exp4_main.py->main line:277 [INFO]1% (2/200)
+[2022-10-24 17:38:17,128] automodels.py->classTrain line:1160 [INFO]Epoch: 2	 Class Train loss: 0.5547, Train score: 0.7851
+[2022-10-24 17:38:19,053] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 2	 Test loss: 1.0101, score: 0.5643
+[2022-10-24 17:38:19,337] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:38:19,338] exp4_main.py->main line:277 [INFO]2% (3/200)
+[2022-10-24 17:38:48,781] automodels.py->classTrain line:1160 [INFO]Epoch: 3	 Class Train loss: 0.5213, Train score: 0.8032
+[2022-10-24 17:38:50,723] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 3	 Test loss: 1.7003, score: 0.6326
+[2022-10-24 17:38:50,726] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 3 with 0.6326 Dice score
+[2022-10-24 17:39:06,254] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:39:06,256] exp4_main.py->main line:277 [INFO]2% (4/200)
+[2022-10-24 17:39:35,711] automodels.py->classTrain line:1160 [INFO]Epoch: 4	 Class Train loss: 0.4909, Train score: 0.8121
+[2022-10-24 17:39:37,710] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 4	 Test loss: 1.1978, score: 0.5963
+[2022-10-24 17:39:38,071] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:39:38,072] exp4_main.py->main line:277 [INFO]2% (5/200)
+[2022-10-24 17:40:07,571] automodels.py->classTrain line:1160 [INFO]Epoch: 5	 Class Train loss: 0.4668, Train score: 0.8231
+[2022-10-24 17:40:09,562] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 5	 Test loss: 0.7642, score: 0.7068
+[2022-10-24 17:40:09,565] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 5 with 0.7068 Dice score
+[2022-10-24 17:40:20,576] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:40:20,577] exp4_main.py->main line:277 [INFO]3% (6/200)
+[2022-10-24 17:40:50,003] automodels.py->classTrain line:1160 [INFO]Epoch: 6	 Class Train loss: 0.4378, Train score: 0.8376
+[2022-10-24 17:40:51,964] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 6	 Test loss: 1.8399, score: 0.4534
+[2022-10-24 17:40:53,408] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:40:53,409] exp4_main.py->main line:277 [INFO]4% (7/200)
+[2022-10-24 17:41:22,895] automodels.py->classTrain line:1160 [INFO]Epoch: 7	 Class Train loss: 0.4220, Train score: 0.8425
+[2022-10-24 17:41:24,860] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 7	 Test loss: 1.7674, score: 0.4438
+[2022-10-24 17:41:25,124] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:41:25,124] exp4_main.py->main line:277 [INFO]4% (8/200)
+[2022-10-24 17:41:54,600] automodels.py->classTrain line:1160 [INFO]Epoch: 8	 Class Train loss: 0.4957, Train score: 0.8163
+[2022-10-24 17:41:56,592] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 8	 Test loss: 1.4009, score: 0.5012
+[2022-10-24 17:41:56,876] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:41:56,877] exp4_main.py->main line:277 [INFO]4% (9/200)
+[2022-10-24 17:42:26,395] automodels.py->classTrain line:1160 [INFO]Epoch: 9	 Class Train loss: 0.3994, Train score: 0.8531
+[2022-10-24 17:42:28,409] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 9	 Test loss: 0.8279, score: 0.6432
+[2022-10-24 17:42:28,674] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:42:28,674] exp4_main.py->main line:277 [INFO]5% (10/200)
+[2022-10-24 17:42:58,156] automodels.py->classTrain line:1160 [INFO]Epoch: 10	 Class Train loss: 0.4548, Train score: 0.8313
+[2022-10-24 17:43:00,095] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 10	 Test loss: 1.4428, score: 0.4834
+[2022-10-24 17:43:00,356] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:43:00,356] exp4_main.py->main line:277 [INFO]6% (11/200)
+[2022-10-24 17:43:29,869] automodels.py->classTrain line:1160 [INFO]Epoch: 11	 Class Train loss: 0.3822, Train score: 0.8551
+[2022-10-24 17:43:31,843] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 11	 Test loss: 0.9797, score: 0.6055
+[2022-10-24 17:43:32,109] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:43:32,110] exp4_main.py->main line:277 [INFO]6% (12/200)
+[2022-10-24 17:44:01,641] automodels.py->classTrain line:1160 [INFO]Epoch: 12	 Class Train loss: 0.4136, Train score: 0.8455
+[2022-10-24 17:44:03,601] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 12	 Test loss: 0.8007, score: 0.6465
+[2022-10-24 17:44:03,875] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:44:03,876] exp4_main.py->main line:277 [INFO]6% (13/200)
+[2022-10-24 17:44:33,389] automodels.py->classTrain line:1160 [INFO]Epoch: 13	 Class Train loss: 0.3959, Train score: 0.8554
+[2022-10-24 17:44:35,361] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 13	 Test loss: 1.7296, score: 0.4494
+[2022-10-24 17:44:35,813] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:44:35,813] exp4_main.py->main line:277 [INFO]7% (14/200)
+[2022-10-24 17:45:05,361] automodels.py->classTrain line:1160 [INFO]Epoch: 14	 Class Train loss: 0.3730, Train score: 0.8623
+[2022-10-24 17:45:07,310] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 14	 Test loss: 1.4190, score: 0.5201
+[2022-10-24 17:45:07,609] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:45:07,610] exp4_main.py->main line:277 [INFO]8% (15/200)
+[2022-10-24 17:45:37,079] automodels.py->classTrain line:1160 [INFO]Epoch: 15	 Class Train loss: 0.4081, Train score: 0.8484
+[2022-10-24 17:45:39,047] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 15	 Test loss: 0.8700, score: 0.6179
+[2022-10-24 17:45:39,405] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:45:39,406] exp4_main.py->main line:277 [INFO]8% (16/200)
+[2022-10-24 17:46:08,919] automodels.py->classTrain line:1160 [INFO]Epoch: 16	 Class Train loss: 0.3495, Train score: 0.8728
+[2022-10-24 17:46:10,871] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 16	 Test loss: 1.2276, score: 0.5316
+[2022-10-24 17:46:11,136] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:46:11,137] exp4_main.py->main line:277 [INFO]8% (17/200)
+[2022-10-24 17:46:40,599] automodels.py->classTrain line:1160 [INFO]Epoch: 17	 Class Train loss: 0.3568, Train score: 0.8688
+[2022-10-24 17:46:42,551] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 17	 Test loss: 0.9188, score: 0.6331
+[2022-10-24 17:46:42,816] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:46:42,816] exp4_main.py->main line:277 [INFO]9% (18/200)
+[2022-10-24 17:47:12,291] automodels.py->classTrain line:1160 [INFO]Epoch: 18	 Class Train loss: 0.3572, Train score: 0.8688
+[2022-10-24 17:47:14,211] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 18	 Test loss: 0.7986, score: 0.6678
+[2022-10-24 17:47:14,487] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:47:14,488] exp4_main.py->main line:277 [INFO]10% (19/200)
+[2022-10-24 17:47:44,063] automodels.py->classTrain line:1160 [INFO]Epoch: 19	 Class Train loss: 0.3663, Train score: 0.8671
+[2022-10-24 17:47:46,016] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 19	 Test loss: 2.3059, score: 0.4286
+[2022-10-24 17:47:46,292] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:47:46,292] exp4_main.py->main line:277 [INFO]10% (20/200)
+[2022-10-24 17:48:15,833] automodels.py->classTrain line:1160 [INFO]Epoch: 20	 Class Train loss: 0.3277, Train score: 0.8755
+[2022-10-24 17:48:17,793] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 20	 Test loss: 0.7379, score: 0.6722
+[2022-10-24 17:48:18,085] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:48:18,085] exp4_main.py->main line:277 [INFO]10% (21/200)
+[2022-10-24 17:48:47,611] automodels.py->classTrain line:1160 [INFO]Epoch: 21	 Class Train loss: 0.3369, Train score: 0.8759
+[2022-10-24 17:48:49,572] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 21	 Test loss: 1.7830, score: 0.6099
+[2022-10-24 17:48:49,830] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:48:49,831] exp4_main.py->main line:277 [INFO]11% (22/200)
+[2022-10-24 17:49:19,354] automodels.py->classTrain line:1160 [INFO]Epoch: 22	 Class Train loss: 0.3335, Train score: 0.8802
+[2022-10-24 17:49:21,296] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 22	 Test loss: 0.9668, score: 0.7134
+[2022-10-24 17:49:21,299] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 22 with 0.7134 Dice score
+[2022-10-24 17:49:32,262] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:49:32,263] exp4_main.py->main line:277 [INFO]12% (23/200)
+[2022-10-24 17:50:01,731] automodels.py->classTrain line:1160 [INFO]Epoch: 23	 Class Train loss: 0.2822, Train score: 0.8930
+[2022-10-24 17:50:03,696] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 23	 Test loss: 0.6363, score: 0.7213
+[2022-10-24 17:50:03,699] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 23 with 0.7213 Dice score
+[2022-10-24 17:50:14,754] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:50:14,755] exp4_main.py->main line:277 [INFO]12% (24/200)
+[2022-10-24 17:50:44,164] automodels.py->classTrain line:1160 [INFO]Epoch: 24	 Class Train loss: 0.2793, Train score: 0.8999
+[2022-10-24 17:50:46,178] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 24	 Test loss: 0.6661, score: 0.7212
+[2022-10-24 17:50:46,421] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:50:46,422] exp4_main.py->main line:277 [INFO]12% (25/200)
+[2022-10-24 17:51:15,902] automodels.py->classTrain line:1160 [INFO]Epoch: 25	 Class Train loss: 0.3246, Train score: 0.8848
+[2022-10-24 17:51:17,862] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 25	 Test loss: 1.6352, score: 0.4759
+[2022-10-24 17:51:18,134] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:51:18,134] exp4_main.py->main line:277 [INFO]13% (26/200)
+[2022-10-24 17:51:47,656] automodels.py->classTrain line:1160 [INFO]Epoch: 26	 Class Train loss: 0.3049, Train score: 0.8843
+[2022-10-24 17:51:49,676] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 26	 Test loss: 0.5837, score: 0.7403
+[2022-10-24 17:51:49,678] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 26 with 0.7403 Dice score
+[2022-10-24 17:52:00,653] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:52:00,654] exp4_main.py->main line:277 [INFO]14% (27/200)
+[2022-10-24 17:52:30,148] automodels.py->classTrain line:1160 [INFO]Epoch: 27	 Class Train loss: 0.2706, Train score: 0.8994
+[2022-10-24 17:52:32,110] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 27	 Test loss: 2.2925, score: 0.4164
+[2022-10-24 17:52:32,421] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:52:32,422] exp4_main.py->main line:277 [INFO]14% (28/200)
+[2022-10-24 17:53:01,948] automodels.py->classTrain line:1160 [INFO]Epoch: 28	 Class Train loss: 0.2837, Train score: 0.8952
+[2022-10-24 17:53:03,939] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 28	 Test loss: 0.8079, score: 0.7073
+[2022-10-24 17:53:04,458] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:53:04,459] exp4_main.py->main line:277 [INFO]14% (29/200)
+[2022-10-24 17:53:34,002] automodels.py->classTrain line:1160 [INFO]Epoch: 29	 Class Train loss: 0.2927, Train score: 0.8958
+[2022-10-24 17:53:35,976] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 29	 Test loss: 1.2108, score: 0.5232
+[2022-10-24 17:53:36,247] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:53:36,248] exp4_main.py->main line:277 [INFO]15% (30/200)
+[2022-10-24 17:54:05,775] automodels.py->classTrain line:1160 [INFO]Epoch: 30	 Class Train loss: 0.2569, Train score: 0.9035
+[2022-10-24 17:54:07,710] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 30	 Test loss: 0.6895, score: 0.6844
+[2022-10-24 17:54:07,994] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:54:07,995] exp4_main.py->main line:277 [INFO]16% (31/200)
+[2022-10-24 17:54:37,515] automodels.py->classTrain line:1160 [INFO]Epoch: 31	 Class Train loss: 0.2436, Train score: 0.9099
+[2022-10-24 17:54:39,485] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 31	 Test loss: 1.4606, score: 0.4941
+[2022-10-24 17:54:39,745] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:54:39,745] exp4_main.py->main line:277 [INFO]16% (32/200)
+[2022-10-24 17:55:09,296] automodels.py->classTrain line:1160 [INFO]Epoch: 32	 Class Train loss: 0.2292, Train score: 0.9168
+[2022-10-24 17:55:11,277] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 32	 Test loss: 1.7548, score: 0.4309
+[2022-10-24 17:55:11,531] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:55:11,532] exp4_main.py->main line:277 [INFO]16% (33/200)
+[2022-10-24 17:55:41,077] automodels.py->classTrain line:1160 [INFO]Epoch: 33	 Class Train loss: 0.3298, Train score: 0.8843
+[2022-10-24 17:55:43,038] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 33	 Test loss: 1.0135, score: 0.6749
+[2022-10-24 17:55:43,310] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:55:43,311] exp4_main.py->main line:277 [INFO]17% (34/200)
+[2022-10-24 17:56:12,869] automodels.py->classTrain line:1160 [INFO]Epoch: 34	 Class Train loss: 0.3032, Train score: 0.8916
+[2022-10-24 17:56:14,833] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 34	 Test loss: 1.3190, score: 0.5198
+[2022-10-24 17:56:15,127] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:56:15,129] exp4_main.py->main line:277 [INFO]18% (35/200)
+[2022-10-24 17:56:44,657] automodels.py->classTrain line:1160 [INFO]Epoch: 35	 Class Train loss: 0.2537, Train score: 0.9104
+[2022-10-24 17:56:46,610] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 35	 Test loss: 2.2559, score: 0.4238
+[2022-10-24 17:56:46,878] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:56:46,879] exp4_main.py->main line:277 [INFO]18% (36/200)
+[2022-10-24 17:57:16,389] automodels.py->classTrain line:1160 [INFO]Epoch: 36	 Class Train loss: 0.2366, Train score: 0.9106
+[2022-10-24 17:57:18,359] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 36	 Test loss: 1.0602, score: 0.6272
+[2022-10-24 17:57:18,646] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:57:18,647] exp4_main.py->main line:277 [INFO]18% (37/200)
+[2022-10-24 17:57:48,184] automodels.py->classTrain line:1160 [INFO]Epoch: 37	 Class Train loss: 0.2474, Train score: 0.9122
+[2022-10-24 17:57:50,127] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 37	 Test loss: 1.6626, score: 0.4479
+[2022-10-24 17:57:50,383] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:57:50,383] exp4_main.py->main line:277 [INFO]19% (38/200)
+[2022-10-24 17:58:19,889] automodels.py->classTrain line:1160 [INFO]Epoch: 38	 Class Train loss: 0.2754, Train score: 0.9022
+[2022-10-24 17:58:21,871] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 38	 Test loss: 0.7519, score: 0.7073
+[2022-10-24 17:58:22,148] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:58:22,149] exp4_main.py->main line:277 [INFO]20% (39/200)
+[2022-10-24 17:58:51,636] automodels.py->classTrain line:1160 [INFO]Epoch: 39	 Class Train loss: 0.2303, Train score: 0.9172
+[2022-10-24 17:58:53,647] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 39	 Test loss: 0.8056, score: 0.6697
+[2022-10-24 17:58:53,922] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:58:53,923] exp4_main.py->main line:277 [INFO]20% (40/200)
+[2022-10-24 17:59:23,443] automodels.py->classTrain line:1160 [INFO]Epoch: 40	 Class Train loss: 0.2367, Train score: 0.9149
+[2022-10-24 17:59:25,391] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 40	 Test loss: 1.5325, score: 0.4674
+[2022-10-24 17:59:25,661] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:59:25,662] exp4_main.py->main line:277 [INFO]20% (41/200)
+[2022-10-24 17:59:55,188] automodels.py->classTrain line:1160 [INFO]Epoch: 41	 Class Train loss: 0.2558, Train score: 0.9056
+[2022-10-24 17:59:57,149] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 41	 Test loss: 1.1801, score: 0.5804
+[2022-10-24 17:59:57,404] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 17:59:57,405] exp4_main.py->main line:277 [INFO]21% (42/200)
+[2022-10-24 18:00:26,960] automodels.py->classTrain line:1160 [INFO]Epoch: 42	 Class Train loss: 0.2393, Train score: 0.9165
+[2022-10-24 18:00:28,946] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 42	 Test loss: 1.3934, score: 0.5084
+[2022-10-24 18:00:29,209] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:00:29,210] exp4_main.py->main line:277 [INFO]22% (43/200)
+[2022-10-24 18:00:58,732] automodels.py->classTrain line:1160 [INFO]Epoch: 43	 Class Train loss: 0.2570, Train score: 0.9091
+[2022-10-24 18:01:00,704] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 43	 Test loss: 0.8415, score: 0.6866
+[2022-10-24 18:01:00,973] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:01:00,974] exp4_main.py->main line:277 [INFO]22% (44/200)
+[2022-10-24 18:01:30,479] automodels.py->classTrain line:1160 [INFO]Epoch: 44	 Class Train loss: 0.2380, Train score: 0.9105
+[2022-10-24 18:01:32,432] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 44	 Test loss: 1.1976, score: 0.5325
+[2022-10-24 18:01:32,730] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:01:32,730] exp4_main.py->main line:277 [INFO]22% (45/200)
+[2022-10-24 18:02:02,304] automodels.py->classTrain line:1160 [INFO]Epoch: 45	 Class Train loss: 0.2069, Train score: 0.9241
+[2022-10-24 18:02:04,298] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 45	 Test loss: 1.2442, score: 0.5343
+[2022-10-24 18:02:04,564] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:02:04,565] exp4_main.py->main line:277 [INFO]23% (46/200)
+[2022-10-24 18:02:34,107] automodels.py->classTrain line:1160 [INFO]Epoch: 46	 Class Train loss: 0.2243, Train score: 0.9190
+[2022-10-24 18:02:36,054] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 46	 Test loss: 1.5894, score: 0.4592
+[2022-10-24 18:02:36,698] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:02:36,699] exp4_main.py->main line:277 [INFO]24% (47/200)
+[2022-10-24 18:03:06,296] automodels.py->classTrain line:1160 [INFO]Epoch: 47	 Class Train loss: 0.2075, Train score: 0.9223
+[2022-10-24 18:03:08,289] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 47	 Test loss: 1.1365, score: 0.5601
+[2022-10-24 18:03:08,540] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:03:08,541] exp4_main.py->main line:277 [INFO]24% (48/200)
+[2022-10-24 18:03:38,094] automodels.py->classTrain line:1160 [INFO]Epoch: 48	 Class Train loss: 0.2621, Train score: 0.9046
+[2022-10-24 18:03:40,061] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 48	 Test loss: 1.8096, score: 0.4649
+[2022-10-24 18:03:40,309] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:03:40,310] exp4_main.py->main line:277 [INFO]24% (49/200)
+[2022-10-24 18:04:09,877] automodels.py->classTrain line:1160 [INFO]Epoch: 49	 Class Train loss: 0.2314, Train score: 0.9176
+[2022-10-24 18:04:11,847] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 49	 Test loss: 1.1559, score: 0.5857
+[2022-10-24 18:04:12,115] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:04:12,115] exp4_main.py->main line:277 [INFO]25% (50/200)
+[2022-10-24 18:04:41,693] automodels.py->classTrain line:1160 [INFO]Epoch: 50	 Class Train loss: 0.2156, Train score: 0.9185
+[2022-10-24 18:04:43,663] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 50	 Test loss: 0.6727, score: 0.7362
+[2022-10-24 18:04:43,965] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:04:43,966] exp4_main.py->main line:277 [INFO]26% (51/200)
+[2022-10-24 18:05:13,503] automodels.py->classTrain line:1160 [INFO]Epoch: 51	 Class Train loss: 0.2195, Train score: 0.9248
+[2022-10-24 18:05:15,475] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 51	 Test loss: 1.0759, score: 0.7223
+[2022-10-24 18:05:15,726] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:05:15,727] exp4_main.py->main line:277 [INFO]26% (52/200)
+[2022-10-24 18:05:45,293] automodels.py->classTrain line:1160 [INFO]Epoch: 52	 Class Train loss: 0.2019, Train score: 0.9263
+[2022-10-24 18:05:47,242] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 52	 Test loss: 1.6352, score: 0.4575
+[2022-10-24 18:05:47,493] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:05:47,494] exp4_main.py->main line:277 [INFO]26% (53/200)
+[2022-10-24 18:06:17,005] automodels.py->classTrain line:1160 [INFO]Epoch: 53	 Class Train loss: 0.2070, Train score: 0.9219
+[2022-10-24 18:06:18,950] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 53	 Test loss: 0.6043, score: 0.7340
+[2022-10-24 18:06:19,204] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:06:19,205] exp4_main.py->main line:277 [INFO]27% (54/200)
+[2022-10-24 18:06:48,667] automodels.py->classTrain line:1160 [INFO]Epoch: 54	 Class Train loss: 0.2076, Train score: 0.9253
+[2022-10-24 18:06:50,638] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 54	 Test loss: 0.5703, score: 0.7721
+[2022-10-24 18:06:50,639] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 54 with 0.7721 Dice score
+[2022-10-24 18:07:01,568] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:07:01,570] exp4_main.py->main line:277 [INFO]28% (55/200)
+[2022-10-24 18:07:31,051] automodels.py->classTrain line:1160 [INFO]Epoch: 55	 Class Train loss: 0.1917, Train score: 0.9304
+[2022-10-24 18:07:33,088] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 55	 Test loss: 0.6608, score: 0.7287
+[2022-10-24 18:07:33,360] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:07:33,361] exp4_main.py->main line:277 [INFO]28% (56/200)
+[2022-10-24 18:08:02,901] automodels.py->classTrain line:1160 [INFO]Epoch: 56	 Class Train loss: 0.1841, Train score: 0.9327
+[2022-10-24 18:08:04,904] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 56	 Test loss: 0.7797, score: 0.7370
+[2022-10-24 18:08:05,148] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:08:05,149] exp4_main.py->main line:277 [INFO]28% (57/200)
+[2022-10-24 18:08:34,661] automodels.py->classTrain line:1160 [INFO]Epoch: 57	 Class Train loss: 0.1969, Train score: 0.9311
+[2022-10-24 18:08:36,662] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 57	 Test loss: 1.1693, score: 0.6054
+[2022-10-24 18:08:36,917] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:08:36,918] exp4_main.py->main line:277 [INFO]29% (58/200)
+[2022-10-24 18:09:06,487] automodels.py->classTrain line:1160 [INFO]Epoch: 58	 Class Train loss: 0.2056, Train score: 0.9234
+[2022-10-24 18:09:08,501] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 58	 Test loss: 1.8788, score: 0.4274
+[2022-10-24 18:09:08,746] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:09:08,746] exp4_main.py->main line:277 [INFO]30% (59/200)
+[2022-10-24 18:09:38,296] automodels.py->classTrain line:1160 [INFO]Epoch: 59	 Class Train loss: 0.1878, Train score: 0.9304
+[2022-10-24 18:09:40,307] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 59	 Test loss: 0.8266, score: 0.6876
+[2022-10-24 18:09:40,555] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:09:40,555] exp4_main.py->main line:277 [INFO]30% (60/200)
+[2022-10-24 18:10:10,106] automodels.py->classTrain line:1160 [INFO]Epoch: 60	 Class Train loss: 0.1737, Train score: 0.9340
+[2022-10-24 18:10:12,127] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 60	 Test loss: 0.9689, score: 0.6235
+[2022-10-24 18:10:12,408] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:10:12,409] exp4_main.py->main line:277 [INFO]30% (61/200)
+[2022-10-24 18:10:42,004] automodels.py->classTrain line:1160 [INFO]Epoch: 61	 Class Train loss: 0.1649, Train score: 0.9417
+[2022-10-24 18:10:44,005] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 61	 Test loss: 1.8163, score: 0.4592
+[2022-10-24 18:10:44,339] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:10:44,340] exp4_main.py->main line:277 [INFO]31% (62/200)
+[2022-10-24 18:11:13,893] automodels.py->classTrain line:1160 [INFO]Epoch: 62	 Class Train loss: 0.1707, Train score: 0.9386
+[2022-10-24 18:11:15,880] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 62	 Test loss: 1.1633, score: 0.5872
+[2022-10-24 18:11:16,151] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:11:16,152] exp4_main.py->main line:277 [INFO]32% (63/200)
+[2022-10-24 18:11:45,695] automodels.py->classTrain line:1160 [INFO]Epoch: 63	 Class Train loss: 0.1652, Train score: 0.9406
+[2022-10-24 18:11:47,698] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 63	 Test loss: 1.4026, score: 0.5313
+[2022-10-24 18:11:47,984] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:11:47,984] exp4_main.py->main line:277 [INFO]32% (64/200)
+[2022-10-24 18:12:17,533] automodels.py->classTrain line:1160 [INFO]Epoch: 64	 Class Train loss: 0.1690, Train score: 0.9391
+[2022-10-24 18:12:19,544] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 64	 Test loss: 0.8154, score: 0.7042
+[2022-10-24 18:12:19,801] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:12:19,801] exp4_main.py->main line:277 [INFO]32% (65/200)
+[2022-10-24 18:12:49,296] automodels.py->classTrain line:1160 [INFO]Epoch: 65	 Class Train loss: 0.1894, Train score: 0.9348
+[2022-10-24 18:12:51,262] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 65	 Test loss: 1.1252, score: 0.6366
+[2022-10-24 18:12:51,538] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:12:51,539] exp4_main.py->main line:277 [INFO]33% (66/200)
+[2022-10-24 18:13:21,054] automodels.py->classTrain line:1160 [INFO]Epoch: 66	 Class Train loss: 0.1863, Train score: 0.9305
+[2022-10-24 18:13:23,026] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 66	 Test loss: 1.3262, score: 0.5706
+[2022-10-24 18:13:23,338] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:13:23,338] exp4_main.py->main line:277 [INFO]34% (67/200)
+[2022-10-24 18:13:52,872] automodels.py->classTrain line:1160 [INFO]Epoch: 67	 Class Train loss: 0.1540, Train score: 0.9441
+[2022-10-24 18:13:54,845] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 67	 Test loss: 1.2635, score: 0.6204
+[2022-10-24 18:13:55,118] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:13:55,118] exp4_main.py->main line:277 [INFO]34% (68/200)
+[2022-10-24 18:14:24,703] automodels.py->classTrain line:1160 [INFO]Epoch: 68	 Class Train loss: 0.1662, Train score: 0.9412
+[2022-10-24 18:14:26,711] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 68	 Test loss: 1.4387, score: 0.5767
+[2022-10-24 18:14:27,025] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:14:27,025] exp4_main.py->main line:277 [INFO]34% (69/200)
+[2022-10-24 18:14:56,592] automodels.py->classTrain line:1160 [INFO]Epoch: 69	 Class Train loss: 0.1622, Train score: 0.9414
+[2022-10-24 18:14:58,592] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 69	 Test loss: 0.7843, score: 0.7285
+[2022-10-24 18:14:59,234] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:14:59,235] exp4_main.py->main line:277 [INFO]35% (70/200)
+[2022-10-24 18:15:28,823] automodels.py->classTrain line:1160 [INFO]Epoch: 70	 Class Train loss: 0.1753, Train score: 0.9353
+[2022-10-24 18:15:30,799] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 70	 Test loss: 0.7802, score: 0.7183
+[2022-10-24 18:15:31,070] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:15:31,071] exp4_main.py->main line:277 [INFO]36% (71/200)
+[2022-10-24 18:16:00,591] automodels.py->classTrain line:1160 [INFO]Epoch: 71	 Class Train loss: 0.2082, Train score: 0.9252
+[2022-10-24 18:16:02,538] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 71	 Test loss: 0.6283, score: 0.7424
+[2022-10-24 18:16:02,808] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:16:02,808] exp4_main.py->main line:277 [INFO]36% (72/200)
+[2022-10-24 18:16:32,393] automodels.py->classTrain line:1160 [INFO]Epoch: 72	 Class Train loss: 0.1555, Train score: 0.9417
+[2022-10-24 18:16:34,428] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 72	 Test loss: 1.1092, score: 0.6468
+[2022-10-24 18:16:34,744] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:16:34,744] exp4_main.py->main line:277 [INFO]36% (73/200)
+[2022-10-24 18:17:04,366] automodels.py->classTrain line:1160 [INFO]Epoch: 73	 Class Train loss: 0.1416, Train score: 0.9500
+[2022-10-24 18:17:06,380] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 73	 Test loss: 1.6260, score: 0.5451
+[2022-10-24 18:17:06,655] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:17:06,655] exp4_main.py->main line:277 [INFO]37% (74/200)
+[2022-10-24 18:17:36,307] automodels.py->classTrain line:1160 [INFO]Epoch: 74	 Class Train loss: 0.1532, Train score: 0.9428
+[2022-10-24 18:17:38,326] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 74	 Test loss: 0.7541, score: 0.7252
+[2022-10-24 18:17:38,599] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:17:38,600] exp4_main.py->main line:277 [INFO]38% (75/200)
+[2022-10-24 18:18:08,186] automodels.py->classTrain line:1160 [INFO]Epoch: 75	 Class Train loss: 0.1469, Train score: 0.9452
+[2022-10-24 18:18:10,220] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 75	 Test loss: 0.8187, score: 0.7075
+[2022-10-24 18:18:10,494] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:18:10,494] exp4_main.py->main line:277 [INFO]38% (76/200)
+[2022-10-24 18:18:40,156] automodels.py->classTrain line:1160 [INFO]Epoch: 76	 Class Train loss: 0.1412, Train score: 0.9487
+[2022-10-24 18:18:42,174] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 76	 Test loss: 0.7725, score: 0.7420
+[2022-10-24 18:18:42,483] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:18:42,484] exp4_main.py->main line:277 [INFO]38% (77/200)
+[2022-10-24 18:19:12,088] automodels.py->classTrain line:1160 [INFO]Epoch: 77	 Class Train loss: 0.1850, Train score: 0.9340
+[2022-10-24 18:19:14,130] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 77	 Test loss: 0.8900, score: 0.6737
+[2022-10-24 18:19:14,420] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:19:14,421] exp4_main.py->main line:277 [INFO]39% (78/200)
+[2022-10-24 18:19:44,091] automodels.py->classTrain line:1160 [INFO]Epoch: 78	 Class Train loss: 0.1767, Train score: 0.9363
+[2022-10-24 18:19:46,118] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 78	 Test loss: 1.4770, score: 0.5316
+[2022-10-24 18:19:46,418] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:19:46,418] exp4_main.py->main line:277 [INFO]40% (79/200)
+[2022-10-24 18:20:16,010] automodels.py->classTrain line:1160 [INFO]Epoch: 79	 Class Train loss: 0.1692, Train score: 0.9407
+[2022-10-24 18:20:18,023] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 79	 Test loss: 0.7924, score: 0.6987
+[2022-10-24 18:20:18,309] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:20:18,310] exp4_main.py->main line:277 [INFO]40% (80/200)
+[2022-10-24 18:20:47,945] automodels.py->classTrain line:1160 [INFO]Epoch: 80	 Class Train loss: 0.1425, Train score: 0.9482
+[2022-10-24 18:20:50,008] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 80	 Test loss: 1.3621, score: 0.5811
+[2022-10-24 18:20:50,311] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:20:50,312] exp4_main.py->main line:277 [INFO]40% (81/200)
+[2022-10-24 18:21:19,887] automodels.py->classTrain line:1160 [INFO]Epoch: 81	 Class Train loss: 0.1445, Train score: 0.9474
+[2022-10-24 18:21:21,938] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 81	 Test loss: 0.7073, score: 0.7456
+[2022-10-24 18:21:22,241] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:21:22,242] exp4_main.py->main line:277 [INFO]41% (82/200)
+[2022-10-24 18:21:51,850] automodels.py->classTrain line:1160 [INFO]Epoch: 82	 Class Train loss: 0.1441, Train score: 0.9463
+[2022-10-24 18:21:53,864] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 82	 Test loss: 1.2635, score: 0.6228
+[2022-10-24 18:21:54,130] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:21:54,131] exp4_main.py->main line:277 [INFO]42% (83/200)
+[2022-10-24 18:22:23,694] automodels.py->classTrain line:1160 [INFO]Epoch: 83	 Class Train loss: 0.1377, Train score: 0.9487
+[2022-10-24 18:22:25,718] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 83	 Test loss: 0.7807, score: 0.7464
+[2022-10-24 18:22:26,008] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:22:26,009] exp4_main.py->main line:277 [INFO]42% (84/200)
+[2022-10-24 18:22:55,593] automodels.py->classTrain line:1160 [INFO]Epoch: 84	 Class Train loss: 0.1675, Train score: 0.9406
+[2022-10-24 18:22:57,662] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 84	 Test loss: 1.2486, score: 0.5665
+[2022-10-24 18:22:57,923] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:22:57,923] exp4_main.py->main line:277 [INFO]42% (85/200)
+[2022-10-24 18:23:27,548] automodels.py->classTrain line:1160 [INFO]Epoch: 85	 Class Train loss: 0.1521, Train score: 0.9466
+[2022-10-24 18:23:29,587] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 85	 Test loss: 1.8766, score: 0.4831
+[2022-10-24 18:23:29,859] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:23:29,860] exp4_main.py->main line:277 [INFO]43% (86/200)
+[2022-10-24 18:23:59,516] automodels.py->classTrain line:1160 [INFO]Epoch: 86	 Class Train loss: 0.1620, Train score: 0.9384
+[2022-10-24 18:24:01,539] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 86	 Test loss: 0.7438, score: 0.7444
+[2022-10-24 18:24:01,842] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:24:01,843] exp4_main.py->main line:277 [INFO]44% (87/200)
+[2022-10-24 18:24:31,443] automodels.py->classTrain line:1160 [INFO]Epoch: 87	 Class Train loss: 0.1378, Train score: 0.9476
+[2022-10-24 18:24:33,484] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 87	 Test loss: 1.0418, score: 0.6905
+[2022-10-24 18:24:33,781] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:24:33,782] exp4_main.py->main line:277 [INFO]44% (88/200)
+[2022-10-24 18:25:03,423] automodels.py->classTrain line:1160 [INFO]Epoch: 88	 Class Train loss: 0.1253, Train score: 0.9554
+[2022-10-24 18:25:05,444] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 88	 Test loss: 0.7743, score: 0.7458
+[2022-10-24 18:25:05,732] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:25:05,734] exp4_main.py->main line:277 [INFO]44% (89/200)
+[2022-10-24 18:25:35,398] automodels.py->classTrain line:1160 [INFO]Epoch: 89	 Class Train loss: 0.1314, Train score: 0.9516
+[2022-10-24 18:25:37,420] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 89	 Test loss: 0.9491, score: 0.7150
+[2022-10-24 18:25:37,690] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:25:37,691] exp4_main.py->main line:277 [INFO]45% (90/200)
+[2022-10-24 18:26:07,341] automodels.py->classTrain line:1160 [INFO]Epoch: 90	 Class Train loss: 0.1263, Train score: 0.9534
+[2022-10-24 18:26:09,411] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 90	 Test loss: 0.9389, score: 0.7132
+[2022-10-24 18:26:09,669] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:26:09,669] exp4_main.py->main line:277 [INFO]46% (91/200)
+[2022-10-24 18:26:39,251] automodels.py->classTrain line:1160 [INFO]Epoch: 91	 Class Train loss: 0.1245, Train score: 0.9547
+[2022-10-24 18:26:41,272] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 91	 Test loss: 0.9556, score: 0.7256
+[2022-10-24 18:26:41,554] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:26:41,554] exp4_main.py->main line:277 [INFO]46% (92/200)
+[2022-10-24 18:27:11,154] automodels.py->classTrain line:1160 [INFO]Epoch: 92	 Class Train loss: 0.1269, Train score: 0.9518
+[2022-10-24 18:27:13,210] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 92	 Test loss: 1.1290, score: 0.6635
+[2022-10-24 18:27:13,477] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:27:13,477] exp4_main.py->main line:277 [INFO]46% (93/200)
+[2022-10-24 18:27:43,051] automodels.py->classTrain line:1160 [INFO]Epoch: 93	 Class Train loss: 0.1397, Train score: 0.9499
+[2022-10-24 18:27:45,081] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 93	 Test loss: 1.5752, score: 0.6168
+[2022-10-24 18:27:45,391] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:27:45,392] exp4_main.py->main line:277 [INFO]47% (94/200)
+[2022-10-24 18:28:15,011] automodels.py->classTrain line:1160 [INFO]Epoch: 94	 Class Train loss: 0.1241, Train score: 0.9542
+[2022-10-24 18:28:17,036] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 94	 Test loss: 1.4284, score: 0.6367
+[2022-10-24 18:28:17,306] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:28:17,307] exp4_main.py->main line:277 [INFO]48% (95/200)
+[2022-10-24 18:28:46,886] automodels.py->classTrain line:1160 [INFO]Epoch: 95	 Class Train loss: 0.1146, Train score: 0.9580
+[2022-10-24 18:28:48,931] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 95	 Test loss: 0.8696, score: 0.7304
+[2022-10-24 18:28:49,220] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:28:49,221] exp4_main.py->main line:277 [INFO]48% (96/200)
+[2022-10-24 18:29:18,774] automodels.py->classTrain line:1160 [INFO]Epoch: 96	 Class Train loss: 0.1580, Train score: 0.9431
+[2022-10-24 18:29:20,833] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 96	 Test loss: 1.3075, score: 0.7234
+[2022-10-24 18:29:21,137] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:29:21,138] exp4_main.py->main line:277 [INFO]48% (97/200)
+[2022-10-24 18:29:50,693] automodels.py->classTrain line:1160 [INFO]Epoch: 97	 Class Train loss: 0.1311, Train score: 0.9510
+[2022-10-24 18:29:52,722] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 97	 Test loss: 0.6472, score: 0.7626
+[2022-10-24 18:29:53,625] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:29:53,626] exp4_main.py->main line:277 [INFO]49% (98/200)
+[2022-10-24 18:30:23,234] automodels.py->classTrain line:1160 [INFO]Epoch: 98	 Class Train loss: 0.1117, Train score: 0.9596
+[2022-10-24 18:30:25,268] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 98	 Test loss: 0.8196, score: 0.7448
+[2022-10-24 18:30:25,571] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:30:25,571] exp4_main.py->main line:277 [INFO]50% (99/200)
+[2022-10-24 18:30:55,171] automodels.py->classTrain line:1160 [INFO]Epoch: 99	 Class Train loss: 0.1297, Train score: 0.9528
+[2022-10-24 18:30:57,262] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 99	 Test loss: 0.8372, score: 0.7457
+[2022-10-24 18:30:57,555] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:30:57,555] exp4_main.py->main line:277 [INFO]50% (100/200)
+[2022-10-24 18:31:27,183] automodels.py->classTrain line:1160 [INFO]Epoch: 100	 Class Train loss: 0.1046, Train score: 0.9625
+[2022-10-24 18:31:29,210] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 100	 Test loss: 0.9296, score: 0.7050
+[2022-10-24 18:31:29,471] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:31:29,471] exp4_main.py->main line:277 [INFO]50% (101/200)
+[2022-10-24 18:31:59,090] automodels.py->classTrain line:1160 [INFO]Epoch: 101	 Class Train loss: 0.1030, Train score: 0.9630
+[2022-10-24 18:32:01,134] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 101	 Test loss: 1.1402, score: 0.6843
+[2022-10-24 18:32:01,401] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:32:01,401] exp4_main.py->main line:277 [INFO]51% (102/200)
+[2022-10-24 18:32:31,006] automodels.py->classTrain line:1160 [INFO]Epoch: 102	 Class Train loss: 0.1062, Train score: 0.9605
+[2022-10-24 18:32:33,059] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 102	 Test loss: 0.9384, score: 0.7210
+[2022-10-24 18:32:33,345] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:32:33,346] exp4_main.py->main line:277 [INFO]52% (103/200)
+[2022-10-24 18:33:02,966] automodels.py->classTrain line:1160 [INFO]Epoch: 103	 Class Train loss: 0.1021, Train score: 0.9631
+[2022-10-24 18:33:05,011] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 103	 Test loss: 0.7139, score: 0.7550
+[2022-10-24 18:33:05,277] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:33:05,278] exp4_main.py->main line:277 [INFO]52% (104/200)
+[2022-10-24 18:33:34,847] automodels.py->classTrain line:1160 [INFO]Epoch: 104	 Class Train loss: 0.1043, Train score: 0.9612
+[2022-10-24 18:33:36,864] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 104	 Test loss: 0.8659, score: 0.7374
+[2022-10-24 18:33:37,126] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:33:37,127] exp4_main.py->main line:277 [INFO]52% (105/200)
+[2022-10-24 18:34:06,725] automodels.py->classTrain line:1160 [INFO]Epoch: 105	 Class Train loss: 0.1023, Train score: 0.9626
+[2022-10-24 18:34:08,766] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 105	 Test loss: 1.0885, score: 0.6981
+[2022-10-24 18:34:09,079] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:34:09,080] exp4_main.py->main line:277 [INFO]53% (106/200)
+[2022-10-24 18:34:38,662] automodels.py->classTrain line:1160 [INFO]Epoch: 106	 Class Train loss: 0.1205, Train score: 0.9567
+[2022-10-24 18:34:40,727] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 106	 Test loss: 0.8108, score: 0.7299
+[2022-10-24 18:34:41,063] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:34:41,063] exp4_main.py->main line:277 [INFO]54% (107/200)
+[2022-10-24 18:35:10,629] automodels.py->classTrain line:1160 [INFO]Epoch: 107	 Class Train loss: 0.0998, Train score: 0.9632
+[2022-10-24 18:35:12,667] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 107	 Test loss: 0.8647, score: 0.7257
+[2022-10-24 18:35:12,940] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:35:12,940] exp4_main.py->main line:277 [INFO]54% (108/200)
+[2022-10-24 18:35:42,549] automodels.py->classTrain line:1160 [INFO]Epoch: 108	 Class Train loss: 0.0951, Train score: 0.9662
+[2022-10-24 18:35:44,566] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 108	 Test loss: 0.8269, score: 0.7414
+[2022-10-24 18:35:44,871] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:35:44,871] exp4_main.py->main line:277 [INFO]54% (109/200)
+[2022-10-24 18:36:14,442] automodels.py->classTrain line:1160 [INFO]Epoch: 109	 Class Train loss: 0.0947, Train score: 0.9654
+[2022-10-24 18:36:16,446] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 109	 Test loss: 0.6646, score: 0.7706
+[2022-10-24 18:36:16,705] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:36:16,706] exp4_main.py->main line:277 [INFO]55% (110/200)
+[2022-10-24 18:36:46,272] automodels.py->classTrain line:1160 [INFO]Epoch: 110	 Class Train loss: 0.0943, Train score: 0.9650
+[2022-10-24 18:36:48,323] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 110	 Test loss: 1.1549, score: 0.6573
+[2022-10-24 18:36:48,618] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:36:48,619] exp4_main.py->main line:277 [INFO]56% (111/200)
+[2022-10-24 18:37:18,184] automodels.py->classTrain line:1160 [INFO]Epoch: 111	 Class Train loss: 0.0938, Train score: 0.9651
+[2022-10-24 18:37:20,243] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 111	 Test loss: 1.1559, score: 0.6739
+[2022-10-24 18:37:20,520] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:37:20,520] exp4_main.py->main line:277 [INFO]56% (112/200)
+[2022-10-24 18:37:50,109] automodels.py->classTrain line:1160 [INFO]Epoch: 112	 Class Train loss: 0.0961, Train score: 0.9652
+[2022-10-24 18:37:52,151] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 112	 Test loss: 0.9923, score: 0.7288
+[2022-10-24 18:37:52,426] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:37:52,426] exp4_main.py->main line:277 [INFO]56% (113/200)
+[2022-10-24 18:38:22,041] automodels.py->classTrain line:1160 [INFO]Epoch: 113	 Class Train loss: 0.0870, Train score: 0.9687
+[2022-10-24 18:38:24,102] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 113	 Test loss: 0.8904, score: 0.7439
+[2022-10-24 18:38:24,379] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:38:24,380] exp4_main.py->main line:277 [INFO]57% (114/200)
+[2022-10-24 18:38:54,033] automodels.py->classTrain line:1160 [INFO]Epoch: 114	 Class Train loss: 0.0898, Train score: 0.9664
+[2022-10-24 18:38:56,068] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 114	 Test loss: 0.8486, score: 0.7378
+[2022-10-24 18:38:56,359] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:38:56,360] exp4_main.py->main line:277 [INFO]58% (115/200)
+[2022-10-24 18:39:25,955] automodels.py->classTrain line:1160 [INFO]Epoch: 115	 Class Train loss: 0.0876, Train score: 0.9690
+[2022-10-24 18:39:28,000] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 115	 Test loss: 0.7508, score: 0.7726
+[2022-10-24 18:39:28,002] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 115 with 0.7726 Dice score
+[2022-10-24 18:39:39,131] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:39:39,132] exp4_main.py->main line:277 [INFO]58% (116/200)
+[2022-10-24 18:40:08,729] automodels.py->classTrain line:1160 [INFO]Epoch: 116	 Class Train loss: 0.0888, Train score: 0.9657
+[2022-10-24 18:40:10,790] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 116	 Test loss: 0.9271, score: 0.7349
+[2022-10-24 18:40:11,075] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:40:11,076] exp4_main.py->main line:277 [INFO]58% (117/200)
+[2022-10-24 18:40:40,691] automodels.py->classTrain line:1160 [INFO]Epoch: 117	 Class Train loss: 0.0819, Train score: 0.9698
+[2022-10-24 18:40:42,799] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 117	 Test loss: 0.7291, score: 0.7630
+[2022-10-24 18:40:43,101] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:40:43,101] exp4_main.py->main line:277 [INFO]59% (118/200)
+[2022-10-24 18:41:12,665] automodels.py->classTrain line:1160 [INFO]Epoch: 118	 Class Train loss: 0.0826, Train score: 0.9693
+[2022-10-24 18:41:14,780] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 118	 Test loss: 0.8015, score: 0.7462
+[2022-10-24 18:41:15,047] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:41:15,048] exp4_main.py->main line:277 [INFO]60% (119/200)
+[2022-10-24 18:41:44,676] automodels.py->classTrain line:1160 [INFO]Epoch: 119	 Class Train loss: 0.0816, Train score: 0.9703
+[2022-10-24 18:41:46,778] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 119	 Test loss: 0.9622, score: 0.7190
+[2022-10-24 18:41:47,083] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:41:47,083] exp4_main.py->main line:277 [INFO]60% (120/200)
+[2022-10-24 18:42:16,656] automodels.py->classTrain line:1160 [INFO]Epoch: 120	 Class Train loss: 0.0898, Train score: 0.9674
+[2022-10-24 18:42:18,730] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 120	 Test loss: 0.8343, score: 0.7506
+[2022-10-24 18:42:19,013] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:42:19,014] exp4_main.py->main line:277 [INFO]60% (121/200)
+[2022-10-24 18:42:48,647] automodels.py->classTrain line:1160 [INFO]Epoch: 121	 Class Train loss: 0.0756, Train score: 0.9725
+[2022-10-24 18:42:50,705] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 121	 Test loss: 0.9318, score: 0.7298
+[2022-10-24 18:42:50,996] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:42:50,997] exp4_main.py->main line:277 [INFO]61% (122/200)
+[2022-10-24 18:43:20,657] automodels.py->classTrain line:1160 [INFO]Epoch: 122	 Class Train loss: 0.0734, Train score: 0.9743
+[2022-10-24 18:43:22,695] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 122	 Test loss: 0.8779, score: 0.7462
+[2022-10-24 18:43:22,996] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:43:22,997] exp4_main.py->main line:277 [INFO]62% (123/200)
+[2022-10-24 18:43:52,553] automodels.py->classTrain line:1160 [INFO]Epoch: 123	 Class Train loss: 0.0736, Train score: 0.9731
+[2022-10-24 18:43:54,627] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 123	 Test loss: 1.2464, score: 0.6596
+[2022-10-24 18:43:54,899] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:43:54,900] exp4_main.py->main line:277 [INFO]62% (124/200)
+[2022-10-24 18:44:24,494] automodels.py->classTrain line:1160 [INFO]Epoch: 124	 Class Train loss: 0.0750, Train score: 0.9721
+[2022-10-24 18:44:26,556] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 124	 Test loss: 0.9926, score: 0.7375
+[2022-10-24 18:44:26,869] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:44:26,870] exp4_main.py->main line:277 [INFO]62% (125/200)
+[2022-10-24 18:44:56,474] automodels.py->classTrain line:1160 [INFO]Epoch: 125	 Class Train loss: 0.0775, Train score: 0.9705
+[2022-10-24 18:44:58,538] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 125	 Test loss: 1.0661, score: 0.6912
+[2022-10-24 18:44:58,830] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:44:58,831] exp4_main.py->main line:277 [INFO]63% (126/200)
+[2022-10-24 18:45:28,409] automodels.py->classTrain line:1160 [INFO]Epoch: 126	 Class Train loss: 0.0877, Train score: 0.9668
+[2022-10-24 18:45:30,451] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 126	 Test loss: 1.1466, score: 0.6877
+[2022-10-24 18:45:30,769] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:45:30,770] exp4_main.py->main line:277 [INFO]64% (127/200)
+[2022-10-24 18:46:00,413] automodels.py->classTrain line:1160 [INFO]Epoch: 127	 Class Train loss: 0.0766, Train score: 0.9709
+[2022-10-24 18:46:02,458] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 127	 Test loss: 0.9366, score: 0.7351
+[2022-10-24 18:46:02,732] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:46:02,732] exp4_main.py->main line:277 [INFO]64% (128/200)
+[2022-10-24 18:46:32,318] automodels.py->classTrain line:1160 [INFO]Epoch: 128	 Class Train loss: 0.0686, Train score: 0.9750
+[2022-10-24 18:46:34,346] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 128	 Test loss: 1.0275, score: 0.7148
+[2022-10-24 18:46:34,622] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:46:34,622] exp4_main.py->main line:277 [INFO]64% (129/200)
+[2022-10-24 18:47:04,250] automodels.py->classTrain line:1160 [INFO]Epoch: 129	 Class Train loss: 0.0652, Train score: 0.9765
+[2022-10-24 18:47:06,311] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 129	 Test loss: 0.9201, score: 0.7374
+[2022-10-24 18:47:06,561] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:47:06,562] exp4_main.py->main line:277 [INFO]65% (130/200)
+[2022-10-24 18:47:36,150] automodels.py->classTrain line:1160 [INFO]Epoch: 130	 Class Train loss: 0.0692, Train score: 0.9746
+[2022-10-24 18:47:38,195] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 130	 Test loss: 0.9930, score: 0.7173
+[2022-10-24 18:47:39,082] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:47:39,082] exp4_main.py->main line:277 [INFO]66% (131/200)
+[2022-10-24 18:48:08,688] automodels.py->classTrain line:1160 [INFO]Epoch: 131	 Class Train loss: 0.0654, Train score: 0.9763
+[2022-10-24 18:48:10,707] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 131	 Test loss: 0.8196, score: 0.7563
+[2022-10-24 18:48:10,998] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:48:10,999] exp4_main.py->main line:277 [INFO]66% (132/200)
+[2022-10-24 18:48:40,634] automodels.py->classTrain line:1160 [INFO]Epoch: 132	 Class Train loss: 0.0650, Train score: 0.9769
+[2022-10-24 18:48:42,681] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 132	 Test loss: 1.1984, score: 0.6858
+[2022-10-24 18:48:42,975] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:48:42,976] exp4_main.py->main line:277 [INFO]66% (133/200)
+[2022-10-24 18:49:12,602] automodels.py->classTrain line:1160 [INFO]Epoch: 133	 Class Train loss: 0.0771, Train score: 0.9712
+[2022-10-24 18:49:14,714] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 133	 Test loss: 1.0769, score: 0.6912
+[2022-10-24 18:49:15,015] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:49:15,015] exp4_main.py->main line:277 [INFO]67% (134/200)
+[2022-10-24 18:49:44,586] automodels.py->classTrain line:1160 [INFO]Epoch: 134	 Class Train loss: 0.0671, Train score: 0.9761
+[2022-10-24 18:49:46,655] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 134	 Test loss: 0.9525, score: 0.7221
+[2022-10-24 18:49:46,968] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:49:46,969] exp4_main.py->main line:277 [INFO]68% (135/200)
+[2022-10-24 18:50:16,575] automodels.py->classTrain line:1160 [INFO]Epoch: 135	 Class Train loss: 0.0623, Train score: 0.9772
+[2022-10-24 18:50:18,610] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 135	 Test loss: 0.9962, score: 0.7129
+[2022-10-24 18:50:18,904] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:50:18,905] exp4_main.py->main line:277 [INFO]68% (136/200)
+[2022-10-24 18:50:48,499] automodels.py->classTrain line:1160 [INFO]Epoch: 136	 Class Train loss: 0.0658, Train score: 0.9757
+[2022-10-24 18:50:50,567] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 136	 Test loss: 1.0635, score: 0.7084
+[2022-10-24 18:50:50,836] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:50:50,837] exp4_main.py->main line:277 [INFO]68% (137/200)
+[2022-10-24 18:51:20,429] automodels.py->classTrain line:1160 [INFO]Epoch: 137	 Class Train loss: 0.0632, Train score: 0.9765
+[2022-10-24 18:51:22,476] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 137	 Test loss: 0.8995, score: 0.7383
+[2022-10-24 18:51:22,766] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:51:22,767] exp4_main.py->main line:277 [INFO]69% (138/200)
+[2022-10-24 18:51:52,427] automodels.py->classTrain line:1160 [INFO]Epoch: 138	 Class Train loss: 0.0618, Train score: 0.9770
+[2022-10-24 18:51:54,520] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 138	 Test loss: 0.8981, score: 0.7444
+[2022-10-24 18:51:54,820] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:51:54,821] exp4_main.py->main line:277 [INFO]70% (139/200)
+[2022-10-24 18:52:24,430] automodels.py->classTrain line:1160 [INFO]Epoch: 139	 Class Train loss: 0.0583, Train score: 0.9796
+[2022-10-24 18:52:26,503] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 139	 Test loss: 0.8250, score: 0.7676
+[2022-10-24 18:52:26,835] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:52:26,836] exp4_main.py->main line:277 [INFO]70% (140/200)
+[2022-10-24 18:52:56,474] automodels.py->classTrain line:1160 [INFO]Epoch: 140	 Class Train loss: 0.0606, Train score: 0.9779
+[2022-10-24 18:52:58,526] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 140	 Test loss: 0.9983, score: 0.7230
+[2022-10-24 18:52:58,843] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:52:58,843] exp4_main.py->main line:277 [INFO]70% (141/200)
+[2022-10-24 18:53:28,474] automodels.py->classTrain line:1160 [INFO]Epoch: 141	 Class Train loss: 0.0617, Train score: 0.9770
+[2022-10-24 18:53:30,559] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 141	 Test loss: 1.1835, score: 0.6761
+[2022-10-24 18:53:30,839] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:53:30,839] exp4_main.py->main line:277 [INFO]71% (142/200)
+[2022-10-24 18:54:00,437] automodels.py->classTrain line:1160 [INFO]Epoch: 142	 Class Train loss: 0.0641, Train score: 0.9748
+[2022-10-24 18:54:02,545] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 142	 Test loss: 0.8864, score: 0.7475
+[2022-10-24 18:54:02,853] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:54:02,854] exp4_main.py->main line:277 [INFO]72% (143/200)
+[2022-10-24 18:54:32,445] automodels.py->classTrain line:1160 [INFO]Epoch: 143	 Class Train loss: 0.0550, Train score: 0.9805
+[2022-10-24 18:54:34,549] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 143	 Test loss: 0.9316, score: 0.7307
+[2022-10-24 18:54:34,841] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:54:34,842] exp4_main.py->main line:277 [INFO]72% (144/200)
+[2022-10-24 18:55:04,448] automodels.py->classTrain line:1160 [INFO]Epoch: 144	 Class Train loss: 0.0574, Train score: 0.9787
+[2022-10-24 18:55:06,571] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 144	 Test loss: 0.9763, score: 0.7340
+[2022-10-24 18:55:06,894] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:55:06,894] exp4_main.py->main line:277 [INFO]72% (145/200)
+[2022-10-24 18:55:36,508] automodels.py->classTrain line:1160 [INFO]Epoch: 145	 Class Train loss: 0.0551, Train score: 0.9800
+[2022-10-24 18:55:38,597] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 145	 Test loss: 0.9185, score: 0.7420
+[2022-10-24 18:55:38,894] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:55:38,895] exp4_main.py->main line:277 [INFO]73% (146/200)
+[2022-10-24 18:56:08,468] automodels.py->classTrain line:1160 [INFO]Epoch: 146	 Class Train loss: 0.0584, Train score: 0.9782
+[2022-10-24 18:56:10,586] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 146	 Test loss: 0.8964, score: 0.7525
+[2022-10-24 18:56:10,850] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:56:10,851] exp4_main.py->main line:277 [INFO]74% (147/200)
+[2022-10-24 18:56:40,529] automodels.py->classTrain line:1160 [INFO]Epoch: 147	 Class Train loss: 0.0636, Train score: 0.9750
+[2022-10-24 18:56:42,584] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 147	 Test loss: 1.0911, score: 0.7109
+[2022-10-24 18:56:42,878] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:56:42,879] exp4_main.py->main line:277 [INFO]74% (148/200)
+[2022-10-24 18:57:12,488] automodels.py->classTrain line:1160 [INFO]Epoch: 148	 Class Train loss: 0.0523, Train score: 0.9817
+[2022-10-24 18:57:14,543] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 148	 Test loss: 0.9100, score: 0.7429
+[2022-10-24 18:57:14,844] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:57:14,846] exp4_main.py->main line:277 [INFO]74% (149/200)
+[2022-10-24 18:57:44,481] automodels.py->classTrain line:1160 [INFO]Epoch: 149	 Class Train loss: 0.0562, Train score: 0.9786
+[2022-10-24 18:57:46,551] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 149	 Test loss: 0.9366, score: 0.7338
+[2022-10-24 18:57:46,877] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:57:46,877] exp4_main.py->main line:277 [INFO]75% (150/200)
+[2022-10-24 18:58:16,529] automodels.py->classTrain line:1160 [INFO]Epoch: 150	 Class Train loss: 0.0601, Train score: 0.9768
+[2022-10-24 18:58:18,639] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 150	 Test loss: 1.1664, score: 0.6960
+[2022-10-24 18:58:18,907] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:58:18,908] exp4_main.py->main line:277 [INFO]76% (151/200)
+[2022-10-24 18:58:48,480] automodels.py->classTrain line:1160 [INFO]Epoch: 151	 Class Train loss: 0.0556, Train score: 0.9793
+[2022-10-24 18:58:50,572] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 151	 Test loss: 1.0075, score: 0.7310
+[2022-10-24 18:58:50,887] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:58:50,887] exp4_main.py->main line:277 [INFO]76% (152/200)
+[2022-10-24 18:59:20,525] automodels.py->classTrain line:1160 [INFO]Epoch: 152	 Class Train loss: 0.0538, Train score: 0.9798
+[2022-10-24 18:59:22,638] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 152	 Test loss: 1.0454, score: 0.7211
+[2022-10-24 18:59:22,953] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:59:22,953] exp4_main.py->main line:277 [INFO]76% (153/200)
+[2022-10-24 18:59:52,602] automodels.py->classTrain line:1160 [INFO]Epoch: 153	 Class Train loss: 0.0537, Train score: 0.9800
+[2022-10-24 18:59:54,691] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 153	 Test loss: 1.1574, score: 0.6946
+[2022-10-24 18:59:55,001] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 18:59:55,002] exp4_main.py->main line:277 [INFO]77% (154/200)
+[2022-10-24 19:00:24,667] automodels.py->classTrain line:1160 [INFO]Epoch: 154	 Class Train loss: 0.0563, Train score: 0.9790
+[2022-10-24 19:00:26,742] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 154	 Test loss: 0.9754, score: 0.7288
+[2022-10-24 19:00:27,052] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:00:27,053] exp4_main.py->main line:277 [INFO]78% (155/200)
+[2022-10-24 19:00:56,628] automodels.py->classTrain line:1160 [INFO]Epoch: 155	 Class Train loss: 0.0572, Train score: 0.9781
+[2022-10-24 19:00:58,687] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 155	 Test loss: 0.9623, score: 0.7367
+[2022-10-24 19:00:58,976] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:00:58,977] exp4_main.py->main line:277 [INFO]78% (156/200)
+[2022-10-24 19:01:28,596] automodels.py->classTrain line:1160 [INFO]Epoch: 156	 Class Train loss: 0.0535, Train score: 0.9794
+[2022-10-24 19:01:30,679] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 156	 Test loss: 1.0784, score: 0.7214
+[2022-10-24 19:01:30,981] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:01:30,981] exp4_main.py->main line:277 [INFO]78% (157/200)
+[2022-10-24 19:02:00,576] automodels.py->classTrain line:1160 [INFO]Epoch: 157	 Class Train loss: 0.0505, Train score: 0.9817
+[2022-10-24 19:02:02,647] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 157	 Test loss: 1.1315, score: 0.7005
+[2022-10-24 19:02:02,957] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:02:02,958] exp4_main.py->main line:277 [INFO]79% (158/200)
+[2022-10-24 19:02:32,531] automodels.py->classTrain line:1160 [INFO]Epoch: 158	 Class Train loss: 0.0510, Train score: 0.9813
+[2022-10-24 19:02:34,617] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 158	 Test loss: 0.9135, score: 0.7586
+[2022-10-24 19:02:34,912] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:02:34,912] exp4_main.py->main line:277 [INFO]80% (159/200)
+[2022-10-24 19:03:04,509] automodels.py->classTrain line:1160 [INFO]Epoch: 159	 Class Train loss: 0.0580, Train score: 0.9770
+[2022-10-24 19:03:06,568] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 159	 Test loss: 1.0422, score: 0.7248
+[2022-10-24 19:03:06,870] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:03:06,870] exp4_main.py->main line:277 [INFO]80% (160/200)
+[2022-10-24 19:03:36,557] automodels.py->classTrain line:1160 [INFO]Epoch: 160	 Class Train loss: 0.0506, Train score: 0.9814
+[2022-10-24 19:03:38,648] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 160	 Test loss: 1.0590, score: 0.7225
+[2022-10-24 19:03:38,930] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:03:38,931] exp4_main.py->main line:277 [INFO]80% (161/200)
+[2022-10-24 19:04:08,533] automodels.py->classTrain line:1160 [INFO]Epoch: 161	 Class Train loss: 0.0490, Train score: 0.9822
+[2022-10-24 19:04:10,572] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 161	 Test loss: 1.1050, score: 0.7172
+[2022-10-24 19:04:10,909] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:04:10,910] exp4_main.py->main line:277 [INFO]81% (162/200)
+[2022-10-24 19:04:40,562] automodels.py->classTrain line:1160 [INFO]Epoch: 162	 Class Train loss: 0.0475, Train score: 0.9830
+[2022-10-24 19:04:42,671] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 162	 Test loss: 0.9850, score: 0.7372
+[2022-10-24 19:04:42,951] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:04:42,952] exp4_main.py->main line:277 [INFO]82% (163/200)
+[2022-10-24 19:05:12,588] automodels.py->classTrain line:1160 [INFO]Epoch: 163	 Class Train loss: 0.0505, Train score: 0.9810
+[2022-10-24 19:05:14,685] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 163	 Test loss: 0.9580, score: 0.7468
+[2022-10-24 19:05:14,963] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:05:14,963] exp4_main.py->main line:277 [INFO]82% (164/200)
+[2022-10-24 19:05:44,607] automodels.py->classTrain line:1160 [INFO]Epoch: 164	 Class Train loss: 0.0492, Train score: 0.9819
+[2022-10-24 19:05:46,683] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 164	 Test loss: 1.2125, score: 0.7018
+[2022-10-24 19:05:46,973] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:05:46,974] exp4_main.py->main line:277 [INFO]82% (165/200)
+[2022-10-24 19:06:16,617] automodels.py->classTrain line:1160 [INFO]Epoch: 165	 Class Train loss: 0.0503, Train score: 0.9810
+[2022-10-24 19:06:18,672] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 165	 Test loss: 1.1220, score: 0.7212
+[2022-10-24 19:06:18,950] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:06:18,951] exp4_main.py->main line:277 [INFO]83% (166/200)
+[2022-10-24 19:06:48,569] automodels.py->classTrain line:1160 [INFO]Epoch: 166	 Class Train loss: 0.0490, Train score: 0.9820
+[2022-10-24 19:06:50,673] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 166	 Test loss: 1.1339, score: 0.7100
+[2022-10-24 19:06:50,972] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:06:50,972] exp4_main.py->main line:277 [INFO]84% (167/200)
+[2022-10-24 19:07:20,638] automodels.py->classTrain line:1160 [INFO]Epoch: 167	 Class Train loss: 0.0488, Train score: 0.9818
+[2022-10-24 19:07:22,702] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 167	 Test loss: 1.2482, score: 0.7049
+[2022-10-24 19:07:22,981] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:07:22,981] exp4_main.py->main line:277 [INFO]84% (168/200)
+[2022-10-24 19:07:52,619] automodels.py->classTrain line:1160 [INFO]Epoch: 168	 Class Train loss: 0.0483, Train score: 0.9820
+[2022-10-24 19:07:54,666] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 168	 Test loss: 1.1389, score: 0.7186
+[2022-10-24 19:07:54,950] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:07:54,950] exp4_main.py->main line:277 [INFO]84% (169/200)
+[2022-10-24 19:08:24,567] automodels.py->classTrain line:1160 [INFO]Epoch: 169	 Class Train loss: 0.0511, Train score: 0.9804
+[2022-10-24 19:08:26,624] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 169	 Test loss: 1.1554, score: 0.7146
+[2022-10-24 19:08:27,599] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:08:27,599] exp4_main.py->main line:277 [INFO]85% (170/200)
+[2022-10-24 19:08:57,254] automodels.py->classTrain line:1160 [INFO]Epoch: 170	 Class Train loss: 0.0464, Train score: 0.9833
+[2022-10-24 19:08:59,308] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 170	 Test loss: 1.0970, score: 0.7230
+[2022-10-24 19:08:59,606] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:08:59,607] exp4_main.py->main line:277 [INFO]86% (171/200)
+[2022-10-24 19:09:29,221] automodels.py->classTrain line:1160 [INFO]Epoch: 171	 Class Train loss: 0.0473, Train score: 0.9824
+[2022-10-24 19:09:31,307] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 171	 Test loss: 1.1042, score: 0.7210
+[2022-10-24 19:09:31,609] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:09:31,610] exp4_main.py->main line:277 [INFO]86% (172/200)
+[2022-10-24 19:10:01,298] automodels.py->classTrain line:1160 [INFO]Epoch: 172	 Class Train loss: 0.0477, Train score: 0.9821
+[2022-10-24 19:10:03,352] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 172	 Test loss: 1.1104, score: 0.7180
+[2022-10-24 19:10:03,630] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:10:03,631] exp4_main.py->main line:277 [INFO]86% (173/200)
+[2022-10-24 19:10:33,267] automodels.py->classTrain line:1160 [INFO]Epoch: 173	 Class Train loss: 0.0521, Train score: 0.9812
+[2022-10-24 19:10:35,355] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 173	 Test loss: 0.9699, score: 0.7396
+[2022-10-24 19:10:35,643] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:10:35,644] exp4_main.py->main line:277 [INFO]87% (174/200)
+[2022-10-24 19:11:05,281] automodels.py->classTrain line:1160 [INFO]Epoch: 174	 Class Train loss: 0.0462, Train score: 0.9831
+[2022-10-24 19:11:07,373] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 174	 Test loss: 1.0878, score: 0.7176
+[2022-10-24 19:11:07,685] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:11:07,686] exp4_main.py->main line:277 [INFO]88% (175/200)
+[2022-10-24 19:11:37,379] automodels.py->classTrain line:1160 [INFO]Epoch: 175	 Class Train loss: 0.0477, Train score: 0.9822
+[2022-10-24 19:11:39,490] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 175	 Test loss: 1.0844, score: 0.7230
+[2022-10-24 19:11:39,765] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:11:39,765] exp4_main.py->main line:277 [INFO]88% (176/200)
+[2022-10-24 19:12:09,472] automodels.py->classTrain line:1160 [INFO]Epoch: 176	 Class Train loss: 0.0473, Train score: 0.9821
+[2022-10-24 19:12:11,566] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 176	 Test loss: 1.0970, score: 0.7177
+[2022-10-24 19:12:11,852] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:12:11,852] exp4_main.py->main line:277 [INFO]88% (177/200)
+[2022-10-24 19:12:41,478] automodels.py->classTrain line:1160 [INFO]Epoch: 177	 Class Train loss: 0.0476, Train score: 0.9821
+[2022-10-24 19:12:43,604] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 177	 Test loss: 1.1053, score: 0.7218
+[2022-10-24 19:12:43,887] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:12:43,888] exp4_main.py->main line:277 [INFO]89% (178/200)
+[2022-10-24 19:13:13,530] automodels.py->classTrain line:1160 [INFO]Epoch: 178	 Class Train loss: 0.0459, Train score: 0.9830
+[2022-10-24 19:13:15,602] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 178	 Test loss: 1.0367, score: 0.7327
+[2022-10-24 19:13:15,927] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:13:15,928] exp4_main.py->main line:277 [INFO]90% (179/200)
+[2022-10-24 19:13:45,523] automodels.py->classTrain line:1160 [INFO]Epoch: 179	 Class Train loss: 0.0471, Train score: 0.9822
+[2022-10-24 19:13:47,576] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 179	 Test loss: 1.0629, score: 0.7295
+[2022-10-24 19:13:47,859] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:13:47,860] exp4_main.py->main line:277 [INFO]90% (180/200)
+[2022-10-24 19:14:17,488] automodels.py->classTrain line:1160 [INFO]Epoch: 180	 Class Train loss: 0.0465, Train score: 0.9826
+[2022-10-24 19:14:19,559] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 180	 Test loss: 1.0177, score: 0.7366
+[2022-10-24 19:14:19,847] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:14:19,848] exp4_main.py->main line:277 [INFO]90% (181/200)
+[2022-10-24 19:14:49,480] automodels.py->classTrain line:1160 [INFO]Epoch: 181	 Class Train loss: 0.0481, Train score: 0.9812
+[2022-10-24 19:14:51,548] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 181	 Test loss: 1.0536, score: 0.7305
+[2022-10-24 19:14:51,832] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:14:51,832] exp4_main.py->main line:277 [INFO]91% (182/200)
+[2022-10-24 19:15:21,504] automodels.py->classTrain line:1160 [INFO]Epoch: 182	 Class Train loss: 0.0450, Train score: 0.9836
+[2022-10-24 19:15:23,613] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 182	 Test loss: 1.0708, score: 0.7271
+[2022-10-24 19:15:23,908] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:15:23,909] exp4_main.py->main line:277 [INFO]92% (183/200)
+[2022-10-24 19:15:53,558] automodels.py->classTrain line:1160 [INFO]Epoch: 183	 Class Train loss: 0.0453, Train score: 0.9836
+[2022-10-24 19:15:55,633] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 183	 Test loss: 1.0123, score: 0.7390
+[2022-10-24 19:15:55,937] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:15:55,938] exp4_main.py->main line:277 [INFO]92% (184/200)
+[2022-10-24 19:16:25,556] automodels.py->classTrain line:1160 [INFO]Epoch: 184	 Class Train loss: 0.0440, Train score: 0.9843
+[2022-10-24 19:16:27,643] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 184	 Test loss: 1.0070, score: 0.7370
+[2022-10-24 19:16:27,945] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:16:27,946] exp4_main.py->main line:277 [INFO]92% (185/200)
+[2022-10-24 19:16:57,603] automodels.py->classTrain line:1160 [INFO]Epoch: 185	 Class Train loss: 0.0441, Train score: 0.9841
+[2022-10-24 19:16:59,661] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 185	 Test loss: 1.0924, score: 0.7248
+[2022-10-24 19:16:59,954] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:16:59,954] exp4_main.py->main line:277 [INFO]93% (186/200)
+[2022-10-24 19:17:29,587] automodels.py->classTrain line:1160 [INFO]Epoch: 186	 Class Train loss: 0.0476, Train score: 0.9819
+[2022-10-24 19:17:31,651] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 186	 Test loss: 1.1803, score: 0.7091
+[2022-10-24 19:17:31,931] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:17:31,932] exp4_main.py->main line:277 [INFO]94% (187/200)
+[2022-10-24 19:18:01,573] automodels.py->classTrain line:1160 [INFO]Epoch: 187	 Class Train loss: 0.0435, Train score: 0.9846
+[2022-10-24 19:18:03,667] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 187	 Test loss: 1.0794, score: 0.7269
+[2022-10-24 19:18:03,987] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:18:03,988] exp4_main.py->main line:277 [INFO]94% (188/200)
+[2022-10-24 19:18:33,621] automodels.py->classTrain line:1160 [INFO]Epoch: 188	 Class Train loss: 0.0448, Train score: 0.9836
+[2022-10-24 19:18:35,718] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 188	 Test loss: 1.1290, score: 0.7190
+[2022-10-24 19:18:36,074] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:18:36,075] exp4_main.py->main line:277 [INFO]94% (189/200)
+[2022-10-24 19:19:05,787] automodels.py->classTrain line:1160 [INFO]Epoch: 189	 Class Train loss: 0.0461, Train score: 0.9823
+[2022-10-24 19:19:07,892] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 189	 Test loss: 1.1746, score: 0.7073
+[2022-10-24 19:19:08,184] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:19:08,185] exp4_main.py->main line:277 [INFO]95% (190/200)
+[2022-10-24 19:19:37,793] automodels.py->classTrain line:1160 [INFO]Epoch: 190	 Class Train loss: 0.0457, Train score: 0.9829
+[2022-10-24 19:19:39,888] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 190	 Test loss: 1.1458, score: 0.7152
+[2022-10-24 19:19:40,177] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:19:40,178] exp4_main.py->main line:277 [INFO]96% (191/200)
+[2022-10-24 19:20:09,800] automodels.py->classTrain line:1160 [INFO]Epoch: 191	 Class Train loss: 0.0441, Train score: 0.9841
+[2022-10-24 19:20:11,862] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 191	 Test loss: 1.1005, score: 0.7242
+[2022-10-24 19:20:12,158] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:20:12,159] exp4_main.py->main line:277 [INFO]96% (192/200)
+[2022-10-24 19:20:41,817] automodels.py->classTrain line:1160 [INFO]Epoch: 192	 Class Train loss: 0.0488, Train score: 0.9812
+[2022-10-24 19:20:43,887] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 192	 Test loss: 1.0336, score: 0.7330
+[2022-10-24 19:20:44,185] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:20:44,185] exp4_main.py->main line:277 [INFO]96% (193/200)
+[2022-10-24 19:21:13,818] automodels.py->classTrain line:1160 [INFO]Epoch: 193	 Class Train loss: 0.0453, Train score: 0.9830
+[2022-10-24 19:21:15,904] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 193	 Test loss: 0.9995, score: 0.7407
+[2022-10-24 19:21:16,210] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:21:16,211] exp4_main.py->main line:277 [INFO]97% (194/200)
+[2022-10-24 19:21:45,848] automodels.py->classTrain line:1160 [INFO]Epoch: 194	 Class Train loss: 0.0442, Train score: 0.9840
+[2022-10-24 19:21:47,947] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 194	 Test loss: 1.1484, score: 0.7163
+[2022-10-24 19:21:48,233] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:21:48,233] exp4_main.py->main line:277 [INFO]98% (195/200)
+[2022-10-24 19:22:17,886] automodels.py->classTrain line:1160 [INFO]Epoch: 195	 Class Train loss: 0.0450, Train score: 0.9833
+[2022-10-24 19:22:19,966] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 195	 Test loss: 1.0555, score: 0.7320
+[2022-10-24 19:22:20,272] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:22:20,273] exp4_main.py->main line:277 [INFO]98% (196/200)
+[2022-10-24 19:22:49,968] automodels.py->classTrain line:1160 [INFO]Epoch: 196	 Class Train loss: 0.0433, Train score: 0.9846
+[2022-10-24 19:22:52,076] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 196	 Test loss: 1.0604, score: 0.7303
+[2022-10-24 19:22:52,398] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:22:52,399] exp4_main.py->main line:277 [INFO]98% (197/200)
+[2022-10-24 19:23:22,048] automodels.py->classTrain line:1160 [INFO]Epoch: 197	 Class Train loss: 0.0449, Train score: 0.9834
+[2022-10-24 19:23:24,140] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 197	 Test loss: 1.0138, score: 0.7382
+[2022-10-24 19:23:24,441] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:23:24,441] exp4_main.py->main line:277 [INFO]99% (198/200)
+[2022-10-24 19:23:54,071] automodels.py->classTrain line:1160 [INFO]Epoch: 198	 Class Train loss: 0.0453, Train score: 0.9830
+[2022-10-24 19:23:56,138] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 198	 Test loss: 1.1084, score: 0.7207
+[2022-10-24 19:23:56,437] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:23:56,438] exp4_main.py->main line:277 [INFO]100% (199/200)
+[2022-10-24 19:24:26,126] automodels.py->classTrain line:1160 [INFO]Epoch: 199	 Class Train loss: 0.0445, Train score: 0.9838
+[2022-10-24 19:24:28,223] automodels.py->Med_innerTest line:1211 [INFO]Epoch: 199	 Test loss: 1.1378, score: 0.7196
+[2022-10-24 19:24:28,532] exp4_main.py->main line:318 [INFO]save train history at: /mnt/Nami/rayeh/Med_AutoDO/picture/exp4_1to10_NoAug_UNet_e200_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-24 19:24:28,532] exp4_main.py->main line:320 [INFO]BEST trained model at 115 has 0.7726 Dice score

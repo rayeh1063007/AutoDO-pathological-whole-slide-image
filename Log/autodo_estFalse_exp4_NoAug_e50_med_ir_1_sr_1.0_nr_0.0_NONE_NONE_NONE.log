@@ -1,0 +1,166 @@
+[2022-10-14 20:57:44,137] exp4_main.py->main line:122 [INFO]Namespace(aug_model='NONE', data='./local_data', dataset='med', epochs=50, gpu='0', hyper_alpha=0.01, hyper_beta=0, hyper_est=False, hyper_gamma=0, hyper_iters=5, hyper_opt='NONE', hyper_steps=0, imbalance_ratio=1, log_interval=500, los_model='NONE', lr_cosine=True, lr_decay_epochs='30,55,80', lr_decay_rate=0.1, lr_warm=True, lr_warm_epochs=5, no_cuda=False, noise_ratio=0.0, overfit=False, oversplit=False, plot_debug=False, run_folder='exp4_NoAug', scale=1, subsample_ratio=1.0, workers=4)
+[2022-10-14 20:57:50,762] exp4_main.py->main line:183 [INFO]Valid/Train Split: 262/50
+[2022-10-14 20:57:50,764] exp4_main.py->main line:236 [INFO]Test/Valid/Train Split: 43/50/262 out of total 287 train images
+[2022-10-14 20:59:33,550] exp4_main.py->main line:122 [INFO]Namespace(aug_model='NONE', data='./local_data', dataset='med', epochs=50, gpu='0', hyper_alpha=0.01, hyper_beta=0, hyper_est=False, hyper_gamma=0, hyper_iters=5, hyper_opt='NONE', hyper_steps=0, imbalance_ratio=1, log_interval=500, los_model='NONE', lr_cosine=True, lr_decay_epochs='30,55,80', lr_decay_rate=0.1, lr_warm=True, lr_warm_epochs=5, no_cuda=False, noise_ratio=0.0, overfit=False, oversplit=False, plot_debug=False, run_folder='exp4_NoAug', scale=1, subsample_ratio=1.0, workers=4)
+[2022-10-14 20:59:40,272] exp4_main.py->main line:183 [INFO]Valid/Train Split: 262/50
+[2022-10-14 20:59:40,274] exp4_main.py->main line:236 [INFO]Test/Valid/Train Split: 43/50/262 out of total 287 train images
+[2022-10-14 20:59:40,277] exp4_main.py->main line:269 [INFO]Run: ./local_data/med/exp4_NoAug/UNet_e50_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0
+[2022-10-14 20:59:40,277] exp4_main.py->main line:277 [INFO]0% (0/50)
+[2022-10-14 21:00:03,636] automodels.py->classTrain line:1157 [INFO]Epoch: 0	 Class Train loss: 0.9039, Train score: 0.6285
+[2022-10-14 21:00:05,169] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 0	 Test loss: 1.4983, score: 0.5392
+[2022-10-14 21:00:05,170] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 0 with 0.5392 Dice score
+[2022-10-14 21:00:05,323] exp4_main.py->main line:277 [INFO]2% (1/50)
+[2022-10-14 21:00:28,884] automodels.py->classTrain line:1157 [INFO]Epoch: 1	 Class Train loss: 0.6549, Train score: 0.7413
+[2022-10-14 21:00:30,427] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 1	 Test loss: 0.8584, score: 0.6443
+[2022-10-14 21:00:30,428] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 1 with 0.6443 Dice score
+[2022-10-14 21:00:30,815] exp4_main.py->main line:277 [INFO]4% (2/50)
+[2022-10-14 21:00:54,625] automodels.py->classTrain line:1157 [INFO]Epoch: 2	 Class Train loss: 0.5776, Train score: 0.7711
+[2022-10-14 21:00:56,199] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 2	 Test loss: 0.9603, score: 0.5730
+[2022-10-14 21:00:56,200] exp4_main.py->main line:277 [INFO]6% (3/50)
+[2022-10-14 21:01:20,405] automodels.py->classTrain line:1157 [INFO]Epoch: 3	 Class Train loss: 0.5550, Train score: 0.7855
+[2022-10-14 21:01:21,965] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 3	 Test loss: 2.1411, score: 0.4671
+[2022-10-14 21:01:21,966] exp4_main.py->main line:277 [INFO]8% (4/50)
+[2022-10-14 21:01:46,156] automodels.py->classTrain line:1157 [INFO]Epoch: 4	 Class Train loss: 0.5198, Train score: 0.7985
+[2022-10-14 21:01:47,714] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 4	 Test loss: 0.6549, score: 0.7134
+[2022-10-14 21:01:47,716] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 4 with 0.7134 Dice score
+[2022-10-14 21:01:48,140] exp4_main.py->main line:277 [INFO]10% (5/50)
+[2022-10-14 21:02:12,452] automodels.py->classTrain line:1157 [INFO]Epoch: 5	 Class Train loss: 0.5049, Train score: 0.8096
+[2022-10-14 21:02:14,036] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 5	 Test loss: 0.8126, score: 0.6282
+[2022-10-14 21:02:14,037] exp4_main.py->main line:277 [INFO]12% (6/50)
+[2022-10-14 21:02:38,336] automodels.py->classTrain line:1157 [INFO]Epoch: 6	 Class Train loss: 0.4744, Train score: 0.8175
+[2022-10-14 21:02:39,903] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 6	 Test loss: 1.5435, score: 0.4820
+[2022-10-14 21:02:39,904] exp4_main.py->main line:277 [INFO]14% (7/50)
+[2022-10-14 21:03:04,121] automodels.py->classTrain line:1157 [INFO]Epoch: 7	 Class Train loss: 0.4493, Train score: 0.8286
+[2022-10-14 21:03:05,682] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 7	 Test loss: 0.6410, score: 0.7136
+[2022-10-14 21:03:05,683] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 7 with 0.7136 Dice score
+[2022-10-14 21:03:06,074] exp4_main.py->main line:277 [INFO]16% (8/50)
+[2022-10-14 21:03:30,307] automodels.py->classTrain line:1157 [INFO]Epoch: 8	 Class Train loss: 0.3998, Train score: 0.8493
+[2022-10-14 21:03:31,891] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 8	 Test loss: 1.8505, score: 0.4314
+[2022-10-14 21:03:31,891] exp4_main.py->main line:277 [INFO]18% (9/50)
+[2022-10-14 21:03:56,171] automodels.py->classTrain line:1157 [INFO]Epoch: 9	 Class Train loss: 0.4495, Train score: 0.8325
+[2022-10-14 21:03:57,748] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 9	 Test loss: 0.7066, score: 0.6985
+[2022-10-14 21:03:57,749] exp4_main.py->main line:277 [INFO]20% (10/50)
+[2022-10-14 21:04:21,959] automodels.py->classTrain line:1157 [INFO]Epoch: 10	 Class Train loss: 0.4540, Train score: 0.8346
+[2022-10-14 21:04:23,525] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 10	 Test loss: 0.7664, score: 0.6399
+[2022-10-14 21:04:23,526] exp4_main.py->main line:277 [INFO]22% (11/50)
+[2022-10-14 21:04:47,817] automodels.py->classTrain line:1157 [INFO]Epoch: 11	 Class Train loss: 0.3625, Train score: 0.8611
+[2022-10-14 21:04:49,400] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 11	 Test loss: 0.6895, score: 0.6873
+[2022-10-14 21:04:49,401] exp4_main.py->main line:277 [INFO]24% (12/50)
+[2022-10-14 21:05:13,749] automodels.py->classTrain line:1157 [INFO]Epoch: 12	 Class Train loss: 0.4023, Train score: 0.8536
+[2022-10-14 21:05:15,298] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 12	 Test loss: 2.3376, score: 0.4144
+[2022-10-14 21:05:15,299] exp4_main.py->main line:277 [INFO]26% (13/50)
+[2022-10-14 21:05:39,586] automodels.py->classTrain line:1157 [INFO]Epoch: 13	 Class Train loss: 0.4089, Train score: 0.8469
+[2022-10-14 21:05:41,163] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 13	 Test loss: 1.1206, score: 0.5527
+[2022-10-14 21:05:41,164] exp4_main.py->main line:277 [INFO]28% (14/50)
+[2022-10-14 21:06:05,405] automodels.py->classTrain line:1157 [INFO]Epoch: 14	 Class Train loss: 0.3580, Train score: 0.8622
+[2022-10-14 21:06:06,995] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 14	 Test loss: 0.6130, score: 0.7143
+[2022-10-14 21:06:06,996] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 14 with 0.7143 Dice score
+[2022-10-14 21:06:07,391] exp4_main.py->main line:277 [INFO]30% (15/50)
+[2022-10-14 21:06:31,576] automodels.py->classTrain line:1157 [INFO]Epoch: 15	 Class Train loss: 0.4016, Train score: 0.8539
+[2022-10-14 21:06:33,148] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 15	 Test loss: 1.1370, score: 0.5392
+[2022-10-14 21:06:33,149] exp4_main.py->main line:277 [INFO]32% (16/50)
+[2022-10-14 21:06:57,512] automodels.py->classTrain line:1157 [INFO]Epoch: 16	 Class Train loss: 0.3800, Train score: 0.8580
+[2022-10-14 21:06:59,085] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 16	 Test loss: 1.1982, score: 0.5150
+[2022-10-14 21:06:59,086] exp4_main.py->main line:277 [INFO]34% (17/50)
+[2022-10-14 21:07:23,380] automodels.py->classTrain line:1157 [INFO]Epoch: 17	 Class Train loss: 0.3571, Train score: 0.8651
+[2022-10-14 21:07:24,968] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 17	 Test loss: 0.5956, score: 0.7370
+[2022-10-14 21:07:24,969] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 17 with 0.7370 Dice score
+[2022-10-14 21:07:25,352] exp4_main.py->main line:277 [INFO]36% (18/50)
+[2022-10-14 21:07:49,632] automodels.py->classTrain line:1157 [INFO]Epoch: 18	 Class Train loss: 0.3272, Train score: 0.8767
+[2022-10-14 21:07:51,229] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 18	 Test loss: 1.3145, score: 0.4891
+[2022-10-14 21:07:51,231] exp4_main.py->main line:277 [INFO]38% (19/50)
+[2022-10-14 21:08:15,554] automodels.py->classTrain line:1157 [INFO]Epoch: 19	 Class Train loss: 0.3304, Train score: 0.8759
+[2022-10-14 21:08:17,124] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 19	 Test loss: 0.6394, score: 0.7606
+[2022-10-14 21:08:17,125] exp4_main.py->main line:299 [INFO]SAVING trained model at epoch 19 with 0.7606 Dice score
+[2022-10-14 21:08:17,521] exp4_main.py->main line:277 [INFO]40% (20/50)
+[2022-10-14 21:08:41,840] automodels.py->classTrain line:1157 [INFO]Epoch: 20	 Class Train loss: 0.3386, Train score: 0.8717
+[2022-10-14 21:08:43,409] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 20	 Test loss: 0.8287, score: 0.6343
+[2022-10-14 21:08:43,410] exp4_main.py->main line:277 [INFO]42% (21/50)
+[2022-10-14 21:09:07,688] automodels.py->classTrain line:1157 [INFO]Epoch: 21	 Class Train loss: 0.3310, Train score: 0.8799
+[2022-10-14 21:09:09,260] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 21	 Test loss: 1.0070, score: 0.6902
+[2022-10-14 21:09:09,261] exp4_main.py->main line:277 [INFO]44% (22/50)
+[2022-10-14 21:09:33,454] automodels.py->classTrain line:1157 [INFO]Epoch: 22	 Class Train loss: 0.3194, Train score: 0.8817
+[2022-10-14 21:09:35,009] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 22	 Test loss: 1.0588, score: 0.5456
+[2022-10-14 21:09:35,010] exp4_main.py->main line:277 [INFO]46% (23/50)
+[2022-10-14 21:09:59,329] automodels.py->classTrain line:1157 [INFO]Epoch: 23	 Class Train loss: 0.3116, Train score: 0.8833
+[2022-10-14 21:10:00,914] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 23	 Test loss: 0.6551, score: 0.7072
+[2022-10-14 21:10:00,915] exp4_main.py->main line:277 [INFO]48% (24/50)
+[2022-10-14 21:10:25,109] automodels.py->classTrain line:1157 [INFO]Epoch: 24	 Class Train loss: 0.2589, Train score: 0.9039
+[2022-10-14 21:10:26,668] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 24	 Test loss: 1.2135, score: 0.5195
+[2022-10-14 21:10:26,669] exp4_main.py->main line:277 [INFO]50% (25/50)
+[2022-10-14 21:10:50,941] automodels.py->classTrain line:1157 [INFO]Epoch: 25	 Class Train loss: 0.3052, Train score: 0.8845
+[2022-10-14 21:10:52,526] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 25	 Test loss: 0.6771, score: 0.7069
+[2022-10-14 21:10:52,527] exp4_main.py->main line:277 [INFO]52% (26/50)
+[2022-10-14 21:11:16,721] automodels.py->classTrain line:1157 [INFO]Epoch: 26	 Class Train loss: 0.2743, Train score: 0.9004
+[2022-10-14 21:11:18,307] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 26	 Test loss: 0.6102, score: 0.7358
+[2022-10-14 21:11:18,308] exp4_main.py->main line:277 [INFO]54% (27/50)
+[2022-10-14 21:11:42,667] automodels.py->classTrain line:1157 [INFO]Epoch: 27	 Class Train loss: 0.2687, Train score: 0.8987
+[2022-10-14 21:11:44,239] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 27	 Test loss: 0.5580, score: 0.7488
+[2022-10-14 21:11:44,240] exp4_main.py->main line:277 [INFO]56% (28/50)
+[2022-10-14 21:12:08,592] automodels.py->classTrain line:1157 [INFO]Epoch: 28	 Class Train loss: 0.2806, Train score: 0.8978
+[2022-10-14 21:12:10,165] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 28	 Test loss: 0.7555, score: 0.6647
+[2022-10-14 21:12:10,167] exp4_main.py->main line:277 [INFO]58% (29/50)
+[2022-10-14 21:12:34,489] automodels.py->classTrain line:1157 [INFO]Epoch: 29	 Class Train loss: 0.2608, Train score: 0.9061
+[2022-10-14 21:12:36,069] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 29	 Test loss: 1.5058, score: 0.4586
+[2022-10-14 21:12:36,069] exp4_main.py->main line:277 [INFO]60% (30/50)
+[2022-10-14 21:13:00,405] automodels.py->classTrain line:1157 [INFO]Epoch: 30	 Class Train loss: 0.2452, Train score: 0.9097
+[2022-10-14 21:13:01,986] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 30	 Test loss: 0.9963, score: 0.5928
+[2022-10-14 21:13:01,987] exp4_main.py->main line:277 [INFO]62% (31/50)
+[2022-10-14 21:13:26,228] automodels.py->classTrain line:1157 [INFO]Epoch: 31	 Class Train loss: 0.2362, Train score: 0.9060
+[2022-10-14 21:13:27,802] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 31	 Test loss: 1.0216, score: 0.5733
+[2022-10-14 21:13:27,802] exp4_main.py->main line:277 [INFO]64% (32/50)
+[2022-10-14 21:13:52,070] automodels.py->classTrain line:1157 [INFO]Epoch: 32	 Class Train loss: 0.2248, Train score: 0.9135
+[2022-10-14 21:13:53,665] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 32	 Test loss: 0.9232, score: 0.6185
+[2022-10-14 21:13:53,666] exp4_main.py->main line:277 [INFO]66% (33/50)
+[2022-10-14 21:14:17,899] automodels.py->classTrain line:1157 [INFO]Epoch: 33	 Class Train loss: 0.2132, Train score: 0.9187
+[2022-10-14 21:14:19,478] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 33	 Test loss: 0.9248, score: 0.6120
+[2022-10-14 21:14:19,479] exp4_main.py->main line:277 [INFO]68% (34/50)
+[2022-10-14 21:14:43,755] automodels.py->classTrain line:1157 [INFO]Epoch: 34	 Class Train loss: 0.2105, Train score: 0.9197
+[2022-10-14 21:14:45,343] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 34	 Test loss: 0.8892, score: 0.6393
+[2022-10-14 21:14:45,344] exp4_main.py->main line:277 [INFO]70% (35/50)
+[2022-10-14 21:15:09,573] automodels.py->classTrain line:1157 [INFO]Epoch: 35	 Class Train loss: 0.2180, Train score: 0.9167
+[2022-10-14 21:15:11,158] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 35	 Test loss: 0.9102, score: 0.6297
+[2022-10-14 21:15:11,159] exp4_main.py->main line:277 [INFO]72% (36/50)
+[2022-10-14 21:15:35,409] automodels.py->classTrain line:1157 [INFO]Epoch: 36	 Class Train loss: 0.1944, Train score: 0.9274
+[2022-10-14 21:15:36,977] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 36	 Test loss: 1.0515, score: 0.5981
+[2022-10-14 21:15:36,978] exp4_main.py->main line:277 [INFO]74% (37/50)
+[2022-10-14 21:16:01,228] automodels.py->classTrain line:1157 [INFO]Epoch: 37	 Class Train loss: 0.1980, Train score: 0.9253
+[2022-10-14 21:16:02,825] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 37	 Test loss: 0.8093, score: 0.6791
+[2022-10-14 21:16:02,826] exp4_main.py->main line:277 [INFO]76% (38/50)
+[2022-10-14 21:16:27,126] automodels.py->classTrain line:1157 [INFO]Epoch: 38	 Class Train loss: 0.1884, Train score: 0.9287
+[2022-10-14 21:16:28,727] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 38	 Test loss: 0.9937, score: 0.6160
+[2022-10-14 21:16:28,728] exp4_main.py->main line:277 [INFO]78% (39/50)
+[2022-10-14 21:16:52,920] automodels.py->classTrain line:1157 [INFO]Epoch: 39	 Class Train loss: 0.1913, Train score: 0.9296
+[2022-10-14 21:16:54,496] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 39	 Test loss: 0.9158, score: 0.6433
+[2022-10-14 21:16:54,497] exp4_main.py->main line:277 [INFO]80% (40/50)
+[2022-10-14 21:17:18,838] automodels.py->classTrain line:1157 [INFO]Epoch: 40	 Class Train loss: 0.1872, Train score: 0.9290
+[2022-10-14 21:17:20,419] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 40	 Test loss: 0.9309, score: 0.6340
+[2022-10-14 21:17:20,420] exp4_main.py->main line:277 [INFO]82% (41/50)
+[2022-10-14 21:17:44,747] automodels.py->classTrain line:1157 [INFO]Epoch: 41	 Class Train loss: 0.1945, Train score: 0.9254
+[2022-10-14 21:17:46,350] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 41	 Test loss: 1.0302, score: 0.6114
+[2022-10-14 21:17:46,351] exp4_main.py->main line:277 [INFO]84% (42/50)
+[2022-10-14 21:18:10,693] automodels.py->classTrain line:1157 [INFO]Epoch: 42	 Class Train loss: 0.1950, Train score: 0.9262
+[2022-10-14 21:18:12,272] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 42	 Test loss: 0.8375, score: 0.6710
+[2022-10-14 21:18:12,273] exp4_main.py->main line:277 [INFO]86% (43/50)
+[2022-10-14 21:18:36,611] automodels.py->classTrain line:1157 [INFO]Epoch: 43	 Class Train loss: 0.1903, Train score: 0.9285
+[2022-10-14 21:18:38,206] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 43	 Test loss: 1.1453, score: 0.5769
+[2022-10-14 21:18:38,206] exp4_main.py->main line:277 [INFO]88% (44/50)
+[2022-10-14 21:19:02,530] automodels.py->classTrain line:1157 [INFO]Epoch: 44	 Class Train loss: 0.1947, Train score: 0.9269
+[2022-10-14 21:19:04,138] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 44	 Test loss: 0.7873, score: 0.6878
+[2022-10-14 21:19:04,139] exp4_main.py->main line:277 [INFO]90% (45/50)
+[2022-10-14 21:19:28,434] automodels.py->classTrain line:1157 [INFO]Epoch: 45	 Class Train loss: 0.1952, Train score: 0.9231
+[2022-10-14 21:19:30,024] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 45	 Test loss: 1.0150, score: 0.6185
+[2022-10-14 21:19:30,025] exp4_main.py->main line:277 [INFO]92% (46/50)
+[2022-10-14 21:19:54,443] automodels.py->classTrain line:1157 [INFO]Epoch: 46	 Class Train loss: 0.1830, Train score: 0.9314
+[2022-10-14 21:19:56,027] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 46	 Test loss: 0.9858, score: 0.6358
+[2022-10-14 21:19:56,028] exp4_main.py->main line:277 [INFO]94% (47/50)
+[2022-10-14 21:20:20,410] automodels.py->classTrain line:1157 [INFO]Epoch: 47	 Class Train loss: 0.1969, Train score: 0.9229
+[2022-10-14 21:20:21,997] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 47	 Test loss: 0.9430, score: 0.6334
+[2022-10-14 21:20:21,998] exp4_main.py->main line:277 [INFO]96% (48/50)
+[2022-10-14 21:20:46,282] automodels.py->classTrain line:1157 [INFO]Epoch: 48	 Class Train loss: 0.1916, Train score: 0.9253
+[2022-10-14 21:20:47,872] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 48	 Test loss: 0.7405, score: 0.7039
+[2022-10-14 21:20:47,873] exp4_main.py->main line:277 [INFO]98% (49/50)
+[2022-10-14 21:21:12,293] automodels.py->classTrain line:1157 [INFO]Epoch: 49	 Class Train loss: 0.1806, Train score: 0.9323
+[2022-10-14 21:21:13,902] automodels.py->Med_innerTest line:1208 [INFO]Epoch: 49	 Test loss: 1.0852, score: 0.5920
+[2022-10-14 21:21:14,078] exp4_main.py->main line:317 [INFO]save train history at: /home/rayeh/workspace/project/med/Med_AutoDO/picture/exp4_NoAug_UNet_e50_opt_NONE_est_False_aug_model_NONE_los_model_NONE_ir_1_sr_1.0_nr_0.0.jpg
+[2022-10-14 21:21:14,079] exp4_main.py->main line:319 [INFO]BEST trained model has 0.7606 Dice score
